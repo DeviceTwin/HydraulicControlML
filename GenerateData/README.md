@@ -3,8 +3,8 @@ Generoidaan kuvitteellisen työkoneen testidataa.
 
 ## Tiedostot
 - `GenerateData.ipynb` - Jupyter notebook, jolla voidaan generoida dataa ja visualisoida generoitu data.
-- `hydraulic_analysis.png` - Generoidun datan visualisointigraafit.
-- `hydraulic_data.csv` - Generoitu data csv tiedostona.
+- `../Visualization/hydraulic_analysis.png` - Generoidun datan visualisointigraafit.
+- `../Data/hydraulic_data.csv` - Generoitu data csv tiedostona.
 
 | pumpControl | pressure | state     |
 |-------------|----------|-----------|
@@ -16,4 +16,6 @@ Generoidaan kuvitteellisen työkoneen testidataa.
 
 ## Käyttö
 - Valitse Kerneliksi **Python 3.12.8** ja aja `GenerateData.ipynb`.
-- Samaan hakemistoon generoituu
+- Ajon tuloksena generoituu
+- `../Data/hydraulic_data.csv`
+- `../Visualization/hydraulic_analysis.png`
