@@ -3,3 +3,6 @@
 
 # Apu Python tiedostot
 *.py
+
+# Ei halutut hakemistot
+Analysis/
