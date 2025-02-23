@@ -1,21 +1,54 @@
-# GenerateData
-Generoidaan kuvitteellisen työkoneen testidataa.
+# Hydraulisen järjestelmän datan generointi ja sen analyysi
 
-## Tiedostot
-- `GenerateData.ipynb` - Jupyter notebook, jolla voidaan generoida dataa ja visualisoida generoitu data.
-- `../Visualization/hydraulic_analysis.png` - Generoidun datan visualisointigraafit.
-- `../Data/hydraulic_data.csv` - Generoitu data csv tiedostona.
+Tämä kansio sisältää Jupyter Notebook -toteutuksen hydraulisen järjestelmän datan generointiin ja visualisointiin. Notebook on suunniteltu tuottamaan realistista dataa hydraulisen järjestelmän eri toimintatiloista koneoppimisen kehitystä varten.
 
-| pumpControl | pressure | state     |
-|-------------|----------|-----------|
-| 37          | 22       | normal    |
-| 79         | 88       | overload  |
-| 76         | 84       | overload  |
-| 91         | 0        | hose_break|
+## Pääkomponentti: GenerateData.ipynb
 
+Jupyter Notebook sisältää kaikki tarvittavat toiminnallisuudet:
+
+### 1. Datan generointi
+
+- **Normaalit toimintatilat:**
+  - Tyhjän kauhan liikkeet (nosto, lasku, siirto)
+  - Normaali kaivuu (maahan tunkeutuminen, täyttö, nosto, tyhjennys)
+  - Täyden kauhan liikkeet (nosto, siirto, lasku)
+
+- **Vikatilat:**
+  - Ylikuormitustilanteet (30% datasta)
+  - Letkurikot (10% datasta)
+
+- **Datan ominaisuudet:**
+  - Pumpun ohjaus (0-100%)
+  - Paine (0-450 bar)
+  - Tila (normal_empty, normal_digging, normal_full, overload, hose_break)
+
+### 2. Visualisointi ja analyysi
+
+Notebook tuottaa seuraavat visualisoinnit:
+
+1. **Scatter plot:** Pumpun ohjauksen ja paineen suhde eri tiloissa
+2. **Pie chart:** Tilojen jakauma datassa
+3. **Density plot:** Pumpun ohjauksen jakauma tiloittain
+4. **Density plot:** Paineen jakauma tiloittain
+
+## Kansiorakenne
+
+- `Data/`: Generoitu CSV-tiedosto (hydraulic_data.csv)
+- `Analysis/`: Visualisoinnit (hydraulic_analysis.png)
+- `GenerateData/`: Jupyter Notebook ja dokumentaatio
 
 ## Käyttö
-- Valitse Kerneliksi **Python 3.12.8** ja aja `GenerateData.ipynb`.
-- Ajon tuloksena generoituu
-- `../Data/hydraulic_data.csv`
-- `../Visualization/hydraulic_analysis.png`
+
+1. Käynnistä Jupyter Notebook:
+   ```bash
+   jupyter notebook GenerateData.ipynb
+   ```
+
+2. Suorita solut järjestyksessä:
+   - Kirjastojen tuonti
+   - Datan generointi
+   - Visualisointi ja analyysi
+
+3. Tulokset:
+   - CSV-tiedosto tallentuu `Data`-kansioon
+   - Visualisoinnit tallentuvat `Analysis`-kansioon
