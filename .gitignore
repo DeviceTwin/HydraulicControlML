@@ -1,8 +1,14 @@
 # Ympäristömuuttujat
 .env
 
-# Apu Python tiedostot
+# Python-tiedostot ja väliaikaiset tiedostot
 *.py
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Ei halutut hakemistot
 Analysis/
