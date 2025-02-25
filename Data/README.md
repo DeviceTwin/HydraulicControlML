@@ -8,6 +8,12 @@ Tämä hakemisto sisältää hydraulisen järjestelmän dataa eri prosessointiva
 - `hydraulicData.csv`: Alkuperäinen simuloitu hydraulidata
   - Sarakkeet: pumpControl, pressure, state
   - Rivejä: 10000
+  - Tilajakauma:
+    * normal_digging: ~37%
+    * overload: ~30%
+    * normal_full: ~12%
+    * normal_empty: ~11%
+    * hose_break: ~10%
 
 ### Prosessoidut datat
 1. `corruptedHydraulicData.csv`: Korruptoitu data testaamista varten
@@ -22,6 +28,7 @@ Tämä hakemisto sisältää hydraulisen järjestelmän dataa eri prosessointiva
    - Rivejä: 9924
    - Ei puuttuvia arvoja
    - Kaikki arvot validilla alueella
+   - Tilajakauma säilytetty
 
 3. `scaledHydraulicData.csv`: Skaalattu data
    - MinMaxScaler käytetty
@@ -32,11 +39,11 @@ Tämä hakemisto sisältää hydraulisen järjestelmän dataa eri prosessointiva
 1. `trainingData.csv`: Training data (70%)
    - Rivejä: 6946
    - Luokkajakauma:
-     * normal_digging: 2564
-     * overload: 2080
-     * normal_full: 837
-     * normal_empty: 772
-     * hose_break: 693
+     * normal_digging: 2563 kpl
+     * overload: 2087 kpl
+     * normal_full: 835 kpl
+     * normal_empty: 769 kpl
+     * hose_break: 692 kpl
 
 2. `validationData.csv`: Validation data (15%)
    - Rivejä: 1489
@@ -49,11 +56,15 @@ Tämä hakemisto sisältää hydraulisen järjestelmän dataa eri prosessointiva
 ## Datan rakenne
 
 ### Sarakkeet
-- `pumpControl`: Pumpun ohjausarvo [0,1]
-- `pressure`: Järjestelmän paine [0,1]
+- `pumpControl`: Pumpun ohjausarvo
+  * Raakadata: [0,100]
+  * Skaalattu: [0,1]
+- `pressure`: Järjestelmän paine
+  * Raakadata: [0,450]
+  * Skaalattu: [0,1]
 - `state`: Järjestelmän tila (luokka)
-  * normal_digging
-  * overload
-  * normal_full
-  * normal_empty
-  * hose_break
+  * normal_digging: Normaali kaivuutoiminta
+  * overload: Ylikuormitustilanne
+  * normal_full: Täyden kauhan liikkeet
+  * normal_empty: Tyhjän kauhan liikkeet
+  * hose_break: Letkurikko

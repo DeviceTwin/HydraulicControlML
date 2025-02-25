@@ -1,42 +1,66 @@
 # DataPreprocessing
-Tässä hakemistossa suoritetaan datan esikäsittely.
 
-## Tiedostot
-- `CorruptedVisualizeData.ipynb` - Jupyter notebook, jolla luodaan korruptoitua dataa ja visualisoidaan sitä
-- `CheckCleanData.ipynb` - Jupyter notebook, joka tarkistaa ja puhdistaa datan puuttuvista arvoista ja poikkeavista havainnoista
-- `CheckScalingData.ipynb` - Jupyter notebook, joka analysoi ja skaalaa datan koneoppimista varten
-- `../Data/corruptedHydraulicData.csv` - Korruptoitu data puuttuvilla arvoilla ja poikkeavilla havainnoilla
-- `../Data/cleanHydraulicData.csv` - Puhdistettu data ilman puuttuvia arvoja ja poikkeavia havaintoja
-- `../Data/scaledHydraulicData.csv` - Skaalattu data koneoppimista varten
-- `../Models/hydraulicScaler.joblib` - Tallennettu MinMaxScaler-objekti datan skaalausta varten
+Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit ja dokumentaation.
 
-## Datan korruptointi
-- Dataan lisätään puuttuvia arvoja (NaN) ja poikkeavia havaintoja (outliers)
-- Puuttuvien arvojen ja poikkeavien havaintojen visualisointi
-- Tallentaa virheitä sisältyvän datan tiedostoon `../Data/corruptedHydraulicData.csv`
-- Tallentaa puuttuvien arvojen visualisoinnin tiedostoon `../Visualization/corruptedMissingValues.png`
-- Tallentaa poikkeavien havaintojen visualisoinnin tiedostoon `../Visualization/corruptedOutliersValues.png`
+## Jupyter Notebookit
 
-## Datan puhdistus
-- Tarkistaa puuttuvat arvot ja poikkeavat havainnot ja visualisoi ne
-- Tallentaa puuttuvien arvojen visualisoinnin tiedostoon `../Visualization/missingValuesAnalysis.png`
-- Tallentaa poikkeavien havaintojen visualisoinnin tiedostoon `../Visualization/outliersValuesAnalysis.png`
-- Poistaa rivit, joissa on puuttuvia arvoja
-- Poistaa rivit, joissa on poikkeavia havainnoita (pumpControl < 0 tai > 100, pressure < 0)
-- Tallentaa puhdistetun datan tiedostoon `../Data/cleanHydraulicData.csv`
-- Tulostaa yhteenvedon datan tilasta ennen ja jälkeen puhdistuksen
+### 1. CorruptedVisualizeData.ipynb
+- Datan korruptointi testaamista varten
+  * Lisää puuttuvia arvoja (NaN) satunnaisiin kohtiin
+  * Lisää poikkeavia havaintoja (outliers) pumpControl ja pressure -muuttujiin
+- Korruptoidun datan visualisointi
+  * Puuttuvien arvojen sijainnit
+  * Poikkeavien havaintojen jakaumat
+  * Luokkajakauman säilyminen
+- Tallentaa:
+  * `../Data/corruptedHydraulicData.csv`
+  * `../Visualization/corruptedMissingValues.png`
+  * `../Visualization/corruptedOutliersValues.png`
 
-## Datan skaalaus
-- Analysoi datan tilastolliset ominaisuudet (min, max, keskiarvo, mediaani, keskihajonta)
-- Skaalaa numeeriset muuttujat välille [0,1] käyttäen MinMaxScaler-menetelmää
-- Muuntaa kategorisen state-muuttujan one-hot-koodattuun muotoon
-- Tallentaa skaalatun datan tiedostoon `../Data/scaledHydraulicData.csv`
-- Tallentaa skaalausparametrit tiedostoon `../Models/hydraulicScaler.joblib`
+### 2. CheckCleanData.ipynb
+- Datan puhdistus ja tarkistus
+  * Puuttuvien arvojen poisto
+  * Poikkeavien havaintojen suodatus
+  * Luokkajakauman validointi
+- Puhdistetun datan visualisointi
+  * Feature-jakaumien vertailu
+  * Luokkajakauman muutokset
+- Tallentaa:
+  * `../Data/cleanHydraulicData.csv`
+  * `../Visualization/dataCleaningAnalysis.png`
+
+### 3. SplitVisualizeData.ipynb
+- Datan skaalaus ja jako
+  * MinMaxScaler-mallin luonti ja sovitus
+  * Datan jako training/validation/test setteihin (70/15/15)
+  * Luokkajakauman säilyttäminen kaikissa seteissä
+- Skaalatun datan visualisointi
+  * Feature-jakaumien vertailu ennen ja jälkeen skaalauksen
+  * Luokkajakauman validointi eri seteissä
+- Tallentaa:
+  * `../Data/scaledHydraulicData.csv`
+  * `../Data/trainingData.csv`
+  * `../Data/validationData.csv`
+  * `../Data/testData.csv`
+  * `../Models/hydraulicScaler.joblib`
+  * `../Visualization/featureDistributions.png`
+  * `../Visualization/dataSplitAnalysis.png`
 
 ## Käyttö
-1. Valitse Kerneliksi **Python 3.18.2
-2. Aja `CorruptedVisualizeData.ipynb` notebook lisätäksesi dataan virheitä
-3. Aja `CheckCleanData.ipynb` notebook datan puhdistamiseksi
-4. Aja `CheckScalingData.ipynb` notebook datan skaalaamiseksi koneoppimista varten
-   
-   
+
+1. Asenna tarvittavat kirjastot:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
+
+2. Suorita notebookit järjestyksessä:
+   ```bash
+   jupyter notebook CorruptedVisualizeData.ipynb
+   jupyter notebook CheckCleanData.ipynb
+   jupyter notebook SplitVisualizeData.ipynb
+   ```
+
+3. Tarkista tulokset:
+   - Visualisoinnit: `../Visualization/`
+   - Prosessoidut datat: `../Data/`
+   - Mallit: `../Models/`
