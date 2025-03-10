@@ -132,7 +132,7 @@ pumpControl,pressure,state
 63.0,169.0,normal_digging
 58.0,163.0,normal_digging
 39.0,47.0,normal_empty
-41.0,47.0,
+41.0,47.0,normal_empty
 39.0,50.0,normal_empty
 41.0,47.0,normal_empty
 41.0,50.0,normal_empty
@@ -242,7 +242,7 @@ pumpControl,pressure,state
 69.0,173.0,normal_digging
 66.0,181.0,normal_digging
 68.0,169.0,normal_digging
-68.0,172.0,normal_digging
+,172.0,normal_digging
 73.0,186.0,normal_digging
 69.0,190.0,normal_digging
 70.0,173.0,normal_digging
@@ -261,7 +261,7 @@ pumpControl,pressure,state
 70.0,185.0,normal_digging
 56.0,163.0,normal_digging
 58.0,163.0,normal_digging
-58.0,148.0,
+58.0,148.0,normal_digging
 57.0,160.0,normal_digging
 60.0,154.0,normal_digging
 61.0,149.0,normal_digging
@@ -311,7 +311,7 @@ pumpControl,pressure,state
 50.0,141.0,normal_digging
 48.0,142.0,normal_digging
 52.0,147.0,normal_digging
-,137.0,normal_digging
+52.0,137.0,normal_digging
 48.0,139.0,normal_digging
 50.0,146.0,normal_digging
 47.0,148.0,normal_digging
@@ -363,9 +363,9 @@ pumpControl,pressure,state
 67.0,185.0,normal_digging
 70.0,178.0,normal_digging
 70.0,182.0,normal_digging
--2.6637276006817014,174.0,normal_digging
+68.0,174.0,normal_digging
 70.0,172.0,normal_digging
-70.0,167.0,normal_digging
+70.0,,normal_digging
 72.0,183.0,normal_digging
 70.0,187.0,normal_digging
 73.0,187.0,normal_digging
@@ -402,7 +402,7 @@ pumpControl,pressure,state
 77.0,195.0,normal_full
 75.0,196.0,normal_full
 74.0,197.0,normal_full
-,196.0,normal_full
+75.0,196.0,normal_full
 77.0,192.0,normal_full
 74.0,196.0,normal_full
 78.0,201.0,normal_full
@@ -450,7 +450,7 @@ pumpControl,pressure,state
 64.0,170.0,normal_digging
 67.0,164.0,normal_digging
 65.0,167.0,normal_digging
-109.71211930294359,178.0,normal_digging
+65.0,178.0,normal_digging
 65.0,170.0,normal_digging
 62.0,175.0,normal_digging
 66.0,184.0,normal_digging
@@ -607,7 +607,7 @@ pumpControl,pressure,state
 19.0,29.0,normal_empty
 19.0,31.0,normal_empty
 19.0,31.0,normal_empty
-19.0,30.0,normal_empty
+19.0,30.0,
 19.0,32.0,normal_empty
 19.0,30.0,normal_empty
 20.0,30.0,normal_empty
@@ -697,7 +697,7 @@ pumpControl,pressure,state
 30.0,38.0,normal_empty
 31.0,40.0,normal_empty
 29.0,40.0,normal_empty
--2.481066651870907,38.0,normal_empty
+28.0,38.0,normal_empty
 31.0,38.0,normal_empty
 29.0,40.0,normal_empty
 31.0,41.0,normal_empty
@@ -825,7 +825,7 @@ pumpControl,pressure,state
 64.0,176.0,normal_digging
 67.0,187.0,normal_digging
 66.0,172.0,normal_digging
-65.0,167.0,normal_digging
+65.0,,normal_digging
 65.0,167.0,normal_digging
 65.0,178.0,normal_digging
 63.0,177.0,normal_digging
@@ -908,7 +908,7 @@ pumpControl,pressure,state
 89.0,227.0,normal_full
 84.0,212.0,normal_full
 79.0,213.0,normal_full
-84.0,211.0,normal_full
+84.0,-1.1557934611098357,normal_full
 84.0,220.0,normal_full
 84.0,214.0,normal_full
 85.0,223.0,normal_full
@@ -920,8 +920,8 @@ pumpControl,pressure,state
 82.0,220.0,normal_full
 84.0,218.0,normal_full
 84.0,203.0,normal_full
--2.08868924654234,220.0,normal_full
-85.0,,normal_full
+83.0,220.0,normal_full
+85.0,210.0,normal_full
 88.0,212.0,normal_full
 87.0,223.0,normal_full
 83.0,235.0,normal_full
@@ -1030,7 +1030,7 @@ pumpControl,pressure,state
 68.0,186.0,normal_digging
 70.0,181.0,normal_digging
 71.0,179.0,normal_digging
-70.0,179.0,normal_digging
+-3.5948357541342784,179.0,normal_digging
 70.0,175.0,normal_digging
 64.0,179.0,normal_digging
 72.0,186.0,normal_digging
@@ -1225,7 +1225,7 @@ pumpControl,pressure,state
 65.0,168.0,normal_digging
 63.0,165.0,normal_digging
 63.0,164.0,normal_digging
-64.0,165.0,normal_digging
+,165.0,normal_digging
 66.0,180.0,normal_digging
 63.0,171.0,normal_digging
 65.0,173.0,normal_digging
@@ -1426,7 +1426,7 @@ pumpControl,pressure,state
 83.0,215.0,normal_full
 83.0,227.0,normal_full
 82.0,221.0,normal_full
-72.0,176.0,normal_digging
+72.0,176.0,
 68.0,178.0,normal_digging
 72.0,181.0,normal_digging
 68.0,183.0,normal_digging
@@ -1506,7 +1506,7 @@ pumpControl,pressure,state
 77.0,196.0,normal_full
 74.0,210.0,normal_full
 72.0,188.0,normal_full
-73.0,208.0,
+73.0,208.0,normal_full
 71.0,177.0,normal_full
 73.0,204.0,normal_full
 77.0,196.0,normal_full
@@ -1645,7 +1645,7 @@ pumpControl,pressure,state
 19.0,29.0,normal_empty
 63.0,168.0,normal_digging
 67.0,153.0,normal_digging
-67.0,172.0,normal_digging
+67.0,172.0,
 62.0,162.0,normal_digging
 68.0,163.0,normal_digging
 62.0,177.0,normal_digging
@@ -1654,7 +1654,7 @@ pumpControl,pressure,state
 67.0,177.0,normal_digging
 66.0,172.0,normal_digging
 68.0,169.0,normal_digging
-62.0,,normal_digging
+62.0,173.0,normal_digging
 69.0,163.0,normal_digging
 64.0,172.0,normal_digging
 64.0,163.0,normal_digging
@@ -1784,7 +1784,7 @@ pumpControl,pressure,state
 72.0,180.0,normal_digging
 70.0,187.0,normal_digging
 70.0,186.0,normal_digging
-69.0,189.0,
+69.0,189.0,normal_digging
 70.0,181.0,normal_digging
 67.0,182.0,normal_digging
 68.0,175.0,normal_digging
@@ -1810,7 +1810,7 @@ pumpControl,pressure,state
 63.0,168.0,normal_digging
 67.0,176.0,normal_digging
 62.0,172.0,normal_digging
--5.60382131138783,170.0,normal_digging
+61.0,170.0,normal_digging
 68.0,163.0,normal_digging
 63.0,175.0,normal_digging
 61.0,165.0,normal_digging
@@ -1923,7 +1923,7 @@ pumpControl,pressure,state
 61.0,151.0,normal_digging
 62.0,165.0,normal_digging
 61.0,157.0,normal_digging
-59.0,150.0,normal_digging
+101.69515510223677,150.0,normal_digging
 59.0,163.0,normal_digging
 62.0,152.0,normal_digging
 59.0,159.0,normal_digging
@@ -2017,7 +2017,7 @@ pumpControl,pressure,state
 61.0,150.0,normal_digging
 57.0,141.0,normal_digging
 58.0,166.0,normal_digging
-60.0,-4.775115896439361,normal_digging
+60.0,158.0,normal_digging
 59.0,155.0,normal_digging
 60.0,164.0,normal_digging
 57.0,161.0,normal_digging
@@ -2046,7 +2046,7 @@ pumpControl,pressure,state
 67.0,167.0,normal_digging
 62.0,179.0,normal_digging
 64.0,171.0,normal_digging
-,162.0,normal_digging
+67.0,162.0,normal_digging
 66.0,165.0,normal_digging
 64.0,170.0,normal_digging
 62.0,164.0,normal_digging
@@ -2086,7 +2086,7 @@ pumpControl,pressure,state
 41.0,48.0,normal_empty
 38.0,49.0,normal_empty
 39.0,48.0,normal_empty
--1.1323328543273448,50.0,normal_empty
+39.0,50.0,normal_empty
 39.0,50.0,normal_empty
 42.0,49.0,normal_empty
 40.0,48.0,normal_empty
@@ -2116,7 +2116,7 @@ pumpControl,pressure,state
 70.0,180.0,normal_digging
 66.0,189.0,normal_digging
 68.0,183.0,normal_digging
-66.0,,normal_digging
+66.0,171.0,normal_digging
 93.0,236.0,normal_full
 93.0,239.0,normal_full
 85.0,248.0,normal_full
@@ -2176,9 +2176,9 @@ pumpControl,pressure,state
 68.0,175.0,normal_digging
 65.0,180.0,normal_digging
 69.0,167.0,normal_digging
-,185.0,normal_digging
+70.0,185.0,normal_digging
 70.0,177.0,normal_digging
-71.0,-5.2636754075923715,normal_digging
+71.0,184.0,normal_digging
 70.0,174.0,normal_digging
 70.0,188.0,normal_digging
 68.0,195.0,normal_digging
@@ -2190,7 +2190,7 @@ pumpControl,pressure,state
 65.0,194.0,normal_digging
 70.0,174.0,normal_digging
 70.0,181.0,normal_digging
-63.0,171.0,normal_digging
+63.0,171.0,
 63.0,167.0,normal_digging
 63.0,160.0,normal_digging
 65.0,173.0,normal_digging
@@ -2258,7 +2258,7 @@ pumpControl,pressure,state
 68.0,173.0,normal_digging
 69.0,173.0,normal_digging
 69.0,182.0,normal_digging
-105.20324863235689,173.0,normal_digging
+70.0,173.0,normal_digging
 68.0,187.0,normal_digging
 71.0,194.0,normal_digging
 72.0,188.0,normal_digging
@@ -2316,7 +2316,7 @@ pumpControl,pressure,state
 72.0,183.0,normal_digging
 66.0,176.0,normal_digging
 70.0,186.0,normal_digging
-68.0,159.0,normal_digging
+68.0,,normal_digging
 71.0,171.0,normal_digging
 65.0,159.0,normal_digging
 71.0,180.0,normal_digging
@@ -2391,7 +2391,7 @@ pumpControl,pressure,state
 87.0,209.0,normal_full
 75.0,202.0,normal_full
 71.0,192.0,normal_full
-109.50873752017306,197.0,normal_full
+81.0,197.0,normal_full
 76.0,194.0,normal_full
 70.0,198.0,normal_full
 74.0,196.0,normal_full
@@ -2409,7 +2409,7 @@ pumpControl,pressure,state
 75.0,198.0,normal_full
 77.0,193.0,normal_full
 76.0,197.0,normal_full
-74.0,,normal_full
+74.0,198.0,normal_full
 73.0,199.0,normal_full
 74.0,201.0,normal_full
 75.0,206.0,normal_full
@@ -2437,7 +2437,7 @@ pumpControl,pressure,state
 98.0,253.0,normal_full
 86.0,242.0,normal_full
 88.0,230.0,normal_full
--5.407969071779255,244.0,normal_full
+86.0,244.0,normal_full
 88.0,249.0,normal_full
 92.0,253.0,normal_full
 87.0,244.0,normal_full
@@ -2457,7 +2457,7 @@ pumpControl,pressure,state
 73.0,210.0,normal_full
 76.0,201.0,normal_full
 72.0,201.0,normal_full
-77.0,196.0,normal_full
+108.06046890167433,196.0,normal_full
 78.0,210.0,normal_full
 94.0,242.0,normal_full
 91.0,253.0,normal_full
@@ -2491,7 +2491,7 @@ pumpControl,pressure,state
 40.0,45.0,normal_empty
 38.0,51.0,normal_empty
 40.0,49.0,normal_empty
-40.0,53.0,normal_empty
+-9.442456137303015,53.0,normal_empty
 39.0,50.0,normal_empty
 40.0,54.0,normal_empty
 37.0,51.0,normal_empty
@@ -2626,7 +2626,7 @@ pumpControl,pressure,state
 76.0,203.0,normal_full
 72.0,195.0,normal_full
 73.0,188.0,normal_full
-73.0,190.0,normal_full
+,190.0,normal_full
 74.0,194.0,normal_full
 66.0,194.0,normal_digging
 72.0,174.0,normal_digging
@@ -2687,7 +2687,7 @@ pumpControl,pressure,state
 19.0,28.0,normal_empty
 19.0,29.0,normal_empty
 20.0,30.0,normal_empty
-21.0,-7.055177401157021,normal_empty
+21.0,27.0,normal_empty
 20.0,29.0,normal_empty
 19.0,29.0,normal_empty
 19.0,32.0,normal_empty
@@ -2765,7 +2765,7 @@ pumpControl,pressure,state
 51.0,140.0,normal_digging
 49.0,139.0,normal_digging
 51.0,135.0,normal_digging
-51.0,141.0,normal_digging
+,141.0,normal_digging
 49.0,154.0,normal_digging
 48.0,138.0,normal_digging
 48.0,145.0,normal_digging
@@ -2807,7 +2807,7 @@ pumpControl,pressure,state
 66.0,182.0,normal_digging
 67.0,170.0,normal_digging
 64.0,152.0,normal_digging
-64.0,167.0,normal_digging
+64.0,-9.91456380067354,normal_digging
 65.0,168.0,normal_digging
 64.0,157.0,normal_digging
 63.0,173.0,normal_digging
@@ -2918,7 +2918,7 @@ pumpControl,pressure,state
 67.0,185.0,normal_digging
 70.0,176.0,normal_digging
 66.0,190.0,normal_digging
-67.0,175.0,normal_digging
+67.0,,normal_digging
 70.0,171.0,normal_digging
 66.0,164.0,normal_digging
 71.0,176.0,normal_digging
@@ -2974,7 +2974,7 @@ pumpControl,pressure,state
 60.0,165.0,normal_digging
 58.0,167.0,normal_digging
 56.0,150.0,normal_digging
-60.0,160.0,normal_digging
+60.0,-2.819169158337144,normal_digging
 58.0,165.0,normal_digging
 60.0,165.0,normal_digging
 59.0,163.0,normal_digging
@@ -3062,7 +3062,7 @@ pumpControl,pressure,state
 19.0,30.0,normal_empty
 68.0,181.0,normal_digging
 73.0,174.0,normal_digging
-72.0,190.0,
+72.0,190.0,normal_digging
 68.0,169.0,normal_digging
 70.0,176.0,normal_digging
 73.0,180.0,normal_digging
@@ -3240,13 +3240,13 @@ pumpControl,pressure,state
 92.0,231.0,normal_full
 89.0,242.0,normal_full
 91.0,220.0,normal_full
-87.0,236.0,normal_full
+87.0,-3.3160180850957977,normal_full
 91.0,263.0,normal_full
 89.0,226.0,normal_full
 91.0,252.0,normal_full
 90.0,231.0,normal_full
 92.0,246.0,normal_full
-87.0,243.0,normal_full
+106.9671888585923,243.0,normal_full
 92.0,251.0,normal_full
 89.0,236.0,normal_full
 93.0,228.0,normal_full
@@ -3275,7 +3275,7 @@ pumpControl,pressure,state
 57.0,154.0,normal_digging
 60.0,163.0,normal_digging
 59.0,167.0,normal_digging
-60.0,,normal_digging
+60.0,155.0,normal_digging
 59.0,151.0,normal_digging
 59.0,167.0,normal_digging
 61.0,168.0,normal_digging
@@ -3294,7 +3294,7 @@ pumpControl,pressure,state
 62.0,160.0,normal_digging
 62.0,158.0,normal_digging
 58.0,161.0,normal_digging
-,152.0,normal_digging
+59.0,152.0,normal_digging
 62.0,156.0,normal_digging
 56.0,168.0,normal_digging
 59.0,156.0,normal_digging
@@ -3471,7 +3471,7 @@ pumpControl,pressure,state
 59.0,151.0,normal_digging
 59.0,166.0,normal_digging
 62.0,166.0,normal_digging
-56.0,-6.5348420047935445,normal_digging
+56.0,166.0,normal_digging
 56.0,165.0,normal_digging
 59.0,164.0,normal_digging
 57.0,167.0,normal_digging
@@ -3488,7 +3488,7 @@ pumpControl,pressure,state
 63.0,167.0,normal_digging
 62.0,160.0,normal_digging
 60.0,166.0,normal_digging
-62.0,147.0,normal_digging
+108.74842504603393,147.0,normal_digging
 57.0,168.0,normal_digging
 59.0,155.0,normal_digging
 57.0,156.0,normal_digging
@@ -3503,7 +3503,7 @@ pumpControl,pressure,state
 61.0,158.0,normal_digging
 61.0,164.0,normal_digging
 62.0,168.0,normal_digging
-106.54187961018783,169.0,normal_digging
+62.0,169.0,normal_digging
 60.0,160.0,normal_digging
 61.0,164.0,normal_digging
 59.0,162.0,normal_digging
@@ -3558,7 +3558,7 @@ pumpControl,pressure,state
 62.0,153.0,normal_digging
 61.0,157.0,normal_digging
 63.0,157.0,normal_digging
-58.0,164.0,normal_digging
+58.0,,normal_digging
 59.0,154.0,normal_digging
 59.0,159.0,normal_digging
 62.0,147.0,normal_digging
@@ -3602,7 +3602,7 @@ pumpControl,pressure,state
 40.0,50.0,normal_empty
 40.0,48.0,normal_empty
 37.0,50.0,normal_empty
--6.388866478882795,52.0,normal_empty
+40.0,52.0,normal_empty
 38.0,52.0,normal_empty
 42.0,49.0,normal_empty
 38.0,49.0,normal_empty
@@ -3617,7 +3617,7 @@ pumpControl,pressure,state
 38.0,53.0,normal_empty
 40.0,51.0,normal_empty
 39.0,52.0,normal_empty
-101.2226483709711,50.0,normal_empty
+39.0,50.0,normal_empty
 38.0,48.0,normal_empty
 40.0,49.0,normal_empty
 38.0,48.0,normal_empty
@@ -3689,7 +3689,7 @@ pumpControl,pressure,state
 65.0,183.0,normal_digging
 65.0,174.0,normal_digging
 66.0,172.0,normal_digging
-66.0,172.0,normal_digging
+,172.0,normal_digging
 64.0,164.0,normal_digging
 64.0,172.0,normal_digging
 64.0,172.0,normal_digging
@@ -3732,7 +3732,7 @@ pumpControl,pressure,state
 19.0,29.0,normal_empty
 19.0,28.0,normal_empty
 21.0,28.0,normal_empty
-19.0,29.0,normal_empty
+19.0,,normal_empty
 19.0,30.0,normal_empty
 20.0,29.0,normal_empty
 19.0,31.0,normal_empty
@@ -3837,7 +3837,7 @@ pumpControl,pressure,state
 61.0,147.0,normal_digging
 60.0,158.0,normal_digging
 58.0,155.0,normal_digging
-59.0,136.0,normal_digging
+,136.0,normal_digging
 58.0,154.0,normal_digging
 60.0,154.0,normal_digging
 59.0,169.0,normal_digging
@@ -4113,7 +4113,7 @@ pumpControl,pressure,state
 71.0,183.0,normal_digging
 71.0,176.0,normal_digging
 69.0,195.0,normal_digging
-69.0,185.0,normal_digging
+69.0,185.0,
 70.0,166.0,normal_digging
 65.0,175.0,normal_digging
 72.0,185.0,normal_digging
@@ -4247,7 +4247,7 @@ pumpControl,pressure,state
 67.0,163.0,normal_digging
 64.0,166.0,normal_digging
 63.0,175.0,normal_digging
--1.73045832900962,178.0,normal_digging
+66.0,178.0,normal_digging
 61.0,177.0,normal_digging
 69.0,166.0,normal_digging
 68.0,168.0,normal_digging
@@ -4424,7 +4424,7 @@ pumpControl,pressure,state
 75.0,194.0,normal_full
 74.0,200.0,normal_full
 64.0,174.0,normal_digging
-68.0,-3.6132799364000787,normal_digging
+68.0,164.0,normal_digging
 61.0,156.0,normal_digging
 64.0,165.0,normal_digging
 65.0,170.0,normal_digging
@@ -4440,7 +4440,7 @@ pumpControl,pressure,state
 64.0,161.0,normal_digging
 66.0,165.0,normal_digging
 60.0,167.0,normal_digging
-66.0,,normal_digging
+66.0,167.0,normal_digging
 68.0,172.0,normal_digging
 65.0,169.0,normal_digging
 64.0,168.0,normal_digging
@@ -4478,7 +4478,7 @@ pumpControl,pressure,state
 63.0,166.0,normal_digging
 64.0,177.0,normal_digging
 82.0,216.0,normal_full
-87.0,217.0,normal_full
+106.72631804723143,217.0,normal_full
 86.0,218.0,normal_full
 85.0,217.0,normal_full
 86.0,206.0,normal_full
@@ -4722,7 +4722,7 @@ pumpControl,pressure,state
 47.0,138.0,normal_digging
 48.0,140.0,normal_digging
 52.0,130.0,normal_digging
-48.0,136.0,
+48.0,136.0,normal_digging
 49.0,144.0,normal_digging
 49.0,142.0,normal_digging
 49.0,141.0,normal_digging
@@ -4748,7 +4748,7 @@ pumpControl,pressure,state
 39.0,50.0,normal_empty
 38.0,47.0,normal_empty
 41.0,51.0,normal_empty
-,53.0,normal_empty
+40.0,53.0,normal_empty
 39.0,52.0,normal_empty
 40.0,47.0,normal_empty
 42.0,51.0,normal_empty
@@ -4756,14 +4756,14 @@ pumpControl,pressure,state
 39.0,51.0,normal_empty
 18.0,28.0,normal_empty
 20.0,29.0,normal_empty
-103.51055638076643,28.0,normal_empty
+20.0,28.0,normal_empty
 21.0,31.0,normal_empty
 19.0,29.0,normal_empty
 20.0,32.0,normal_empty
 20.0,32.0,normal_empty
 19.0,29.0,normal_empty
 19.0,30.0,normal_empty
-20.0,29.0,normal_empty
+-5.487179122329587,29.0,normal_empty
 20.0,31.0,normal_empty
 19.0,29.0,normal_empty
 20.0,29.0,normal_empty
@@ -4832,7 +4832,7 @@ pumpControl,pressure,state
 84.0,222.0,normal_full
 84.0,221.0,normal_full
 83.0,231.0,normal_full
-84.0,216.0,normal_full
+,216.0,normal_full
 82.0,222.0,normal_full
 85.0,223.0,normal_full
 82.0,205.0,normal_full
@@ -5045,7 +5045,7 @@ pumpControl,pressure,state
 29.0,37.0,normal_empty
 30.0,42.0,normal_empty
 29.0,38.0,normal_empty
-27.0,38.0,normal_empty
+,38.0,normal_empty
 29.0,42.0,normal_empty
 30.0,40.0,normal_empty
 29.0,39.0,normal_empty
@@ -5061,7 +5061,7 @@ pumpControl,pressure,state
 39.0,47.0,normal_empty
 43.0,49.0,normal_empty
 40.0,46.0,normal_empty
--8.48726416772927,49.0,normal_empty
+39.0,49.0,normal_empty
 40.0,44.0,normal_empty
 40.0,47.0,normal_empty
 40.0,47.0,normal_empty
@@ -5076,7 +5076,7 @@ pumpControl,pressure,state
 37.0,49.0,normal_empty
 40.0,48.0,normal_empty
 39.0,47.0,normal_empty
-,31.0,normal_empty
+20.0,31.0,normal_empty
 19.0,29.0,normal_empty
 20.0,31.0,normal_empty
 19.0,29.0,normal_empty
@@ -5111,7 +5111,7 @@ pumpControl,pressure,state
 51.0,142.0,normal_digging
 51.0,138.0,normal_digging
 46.0,142.0,normal_digging
-51.0,145.0,normal_digging
+51.0,-9.114210010655691,normal_digging
 49.0,140.0,normal_digging
 49.0,135.0,normal_digging
 51.0,133.0,normal_digging
@@ -5284,7 +5284,7 @@ pumpControl,pressure,state
 21.0,28.0,normal_empty
 20.0,30.0,normal_empty
 19.0,31.0,normal_empty
-,29.0,normal_empty
+18.0,29.0,normal_empty
 19.0,30.0,normal_empty
 19.0,30.0,normal_empty
 19.0,29.0,normal_empty
@@ -5370,7 +5370,7 @@ pumpControl,pressure,state
 52.0,134.0,normal_digging
 74.0,188.0,normal_full
 77.0,201.0,normal_full
-,196.0,normal_full
+73.0,196.0,normal_full
 78.0,199.0,normal_full
 74.0,192.0,normal_full
 70.0,198.0,normal_full
@@ -5380,7 +5380,7 @@ pumpControl,pressure,state
 74.0,199.0,normal_full
 75.0,192.0,normal_full
 77.0,203.0,normal_full
-74.0,,normal_full
+74.0,212.0,normal_full
 78.0,207.0,normal_full
 68.0,212.0,normal_full
 76.0,216.0,normal_full
@@ -5437,7 +5437,7 @@ pumpControl,pressure,state
 51.0,141.0,normal_digging
 51.0,143.0,normal_digging
 52.0,129.0,normal_digging
--9.296835807954075,145.0,normal_digging
+51.0,145.0,normal_digging
 47.0,135.0,normal_digging
 48.0,135.0,normal_digging
 49.0,141.0,normal_digging
@@ -5562,7 +5562,7 @@ pumpControl,pressure,state
 86.0,220.0,normal_full
 86.0,222.0,normal_full
 87.0,227.0,normal_full
-82.0,210.0,normal_full
+82.0,,normal_full
 83.0,228.0,normal_full
 80.0,223.0,normal_full
 85.0,230.0,normal_full
@@ -5599,7 +5599,7 @@ pumpControl,pressure,state
 89.0,248.0,normal_full
 80.0,235.0,normal_full
 86.0,219.0,normal_full
-87.0,,normal_full
+87.0,207.0,normal_full
 83.0,218.0,normal_full
 67.0,169.0,normal_digging
 65.0,165.0,normal_digging
@@ -5627,7 +5627,7 @@ pumpControl,pressure,state
 20.0,29.0,normal_empty
 19.0,30.0,normal_empty
 19.0,30.0,normal_empty
-18.0,30.0,normal_empty
+-3.655478402061182,30.0,normal_empty
 19.0,28.0,normal_empty
 19.0,29.0,normal_empty
 19.0,28.0,normal_empty
@@ -5693,7 +5693,7 @@ pumpControl,pressure,state
 66.0,169.0,normal_digging
 69.0,178.0,normal_digging
 71.0,185.0,normal_digging
-71.0,177.0,normal_digging
+71.0,-6.557410290641716,normal_digging
 67.0,182.0,normal_digging
 66.0,153.0,normal_digging
 63.0,165.0,normal_digging
@@ -5707,7 +5707,7 @@ pumpControl,pressure,state
 58.0,147.0,normal_digging
 60.0,161.0,normal_digging
 60.0,155.0,normal_digging
-59.0,156.0,
+59.0,156.0,normal_digging
 59.0,165.0,normal_digging
 60.0,163.0,normal_digging
 59.0,157.0,normal_digging
@@ -5808,7 +5808,7 @@ pumpControl,pressure,state
 60.0,154.0,normal_digging
 59.0,160.0,normal_digging
 59.0,165.0,normal_digging
-60.0,165.0,normal_digging
+104.65037034374001,165.0,normal_digging
 59.0,168.0,normal_digging
 59.0,153.0,normal_digging
 63.0,148.0,normal_digging
@@ -5831,7 +5831,7 @@ pumpControl,pressure,state
 91.0,235.0,normal_full
 87.0,234.0,normal_full
 94.0,233.0,normal_full
-107.96390878757178,232.0,normal_full
+90.0,232.0,normal_full
 92.0,234.0,normal_full
 89.0,223.0,normal_full
 85.0,240.0,normal_full
@@ -5844,7 +5844,7 @@ pumpControl,pressure,state
 93.0,244.0,normal_full
 93.0,213.0,normal_full
 89.0,252.0,normal_full
-88.0,-2.9536597010252255,normal_full
+88.0,256.0,normal_full
 94.0,235.0,normal_full
 88.0,230.0,normal_full
 88.0,228.0,normal_full
@@ -6122,7 +6122,7 @@ pumpControl,pressure,state
 97.0,346.0,overload
 93.0,328.0,overload
 96.0,357.0,overload
-96.0,372.0,
+96.0,372.0,overload
 98.0,347.0,overload
 93.0,317.0,overload
 94.0,352.0,overload
@@ -6173,10 +6173,10 @@ pumpControl,pressure,state
 89.0,319.0,overload
 95.0,308.0,overload
 92.0,294.0,overload
-96.0,302.0,overload
+96.0,-8.453610463216721,overload
 94.0,310.0,overload
 97.0,337.0,overload
-93.0,342.0,overload
+93.0,,overload
 97.0,337.0,overload
 93.0,313.0,overload
 92.0,354.0,overload
@@ -6184,7 +6184,7 @@ pumpControl,pressure,state
 93.0,341.0,overload
 94.0,335.0,overload
 97.0,366.0,overload
-91.0,345.0,overload
+91.0,345.0,
 93.0,335.0,overload
 95.0,336.0,overload
 95.0,351.0,overload
@@ -6199,7 +6199,7 @@ pumpControl,pressure,state
 96.0,334.0,overload
 91.0,339.0,overload
 92.0,377.0,overload
-93.0,337.0,overload
+-8.280630042848738,337.0,overload
 95.0,335.0,overload
 94.0,347.0,overload
 97.0,353.0,overload
@@ -6218,7 +6218,7 @@ pumpControl,pressure,state
 95.0,330.0,overload
 96.0,352.0,overload
 94.0,320.0,overload
-95.0,322.0,overload
+104.79841505702208,322.0,overload
 93.0,323.0,overload
 94.0,359.0,overload
 94.0,332.0,overload
@@ -6264,7 +6264,7 @@ pumpControl,pressure,state
 97.0,344.0,overload
 91.0,348.0,overload
 92.0,363.0,overload
-93.0,390.0,overload
+101.75920017232056,390.0,overload
 97.0,326.0,overload
 95.0,352.0,overload
 96.0,347.0,overload
@@ -6431,7 +6431,7 @@ pumpControl,pressure,state
 92.0,346.0,overload
 94.0,296.0,overload
 95.0,339.0,overload
-97.0,,overload
+97.0,346.0,overload
 92.0,302.0,overload
 93.0,329.0,overload
 96.0,339.0,overload
@@ -6497,7 +6497,7 @@ pumpControl,pressure,state
 95.0,376.0,overload
 93.0,339.0,overload
 94.0,321.0,overload
-,347.0,overload
+94.0,347.0,overload
 95.0,376.0,overload
 95.0,359.0,overload
 95.0,368.0,overload
@@ -6506,7 +6506,7 @@ pumpControl,pressure,state
 95.0,347.0,overload
 96.0,347.0,overload
 95.0,329.0,overload
-,371.0,overload
+95.0,371.0,overload
 96.0,349.0,overload
 96.0,333.0,overload
 94.0,327.0,overload
@@ -6551,14 +6551,14 @@ pumpControl,pressure,state
 94.0,333.0,overload
 95.0,350.0,overload
 93.0,326.0,overload
-96.0,310.0,overload
+96.0,-4.097543681343475,overload
 93.0,391.0,overload
 93.0,359.0,overload
 93.0,348.0,overload
 96.0,359.0,overload
 94.0,373.0,overload
 93.0,343.0,overload
-95.0,320.0,overload
+-6.477380648222983,320.0,overload
 94.0,342.0,overload
 94.0,381.0,overload
 93.0,360.0,overload
@@ -6618,7 +6618,7 @@ pumpControl,pressure,state
 97.0,358.0,overload
 96.0,358.0,overload
 92.0,314.0,overload
-95.0,341.0,overload
+95.0,341.0,
 93.0,354.0,overload
 91.0,330.0,overload
 94.0,312.0,overload
@@ -6840,7 +6840,7 @@ pumpControl,pressure,state
 94.0,308.0,overload
 94.0,323.0,overload
 93.0,318.0,overload
-92.0,,overload
+92.0,312.0,overload
 88.0,324.0,overload
 97.0,323.0,overload
 92.0,316.0,overload
@@ -6848,7 +6848,7 @@ pumpControl,pressure,state
 93.0,306.0,overload
 97.0,298.0,overload
 95.0,309.0,overload
-97.0,310.0,overload
+105.75533617478283,310.0,overload
 93.0,301.0,overload
 95.0,320.0,overload
 93.0,309.0,overload
@@ -6879,9 +6879,9 @@ pumpControl,pressure,state
 95.0,326.0,overload
 95.0,342.0,overload
 95.0,368.0,overload
-94.0,352.0,overload
+-6.97663197049876,352.0,overload
 98.0,362.0,overload
-97.0,334.0,overload
+97.0,334.0,
 95.0,317.0,overload
 95.0,344.0,overload
 95.0,357.0,overload
@@ -6909,7 +6909,7 @@ pumpControl,pressure,state
 90.0,340.0,overload
 95.0,331.0,overload
 92.0,325.0,overload
-,373.0,overload
+96.0,373.0,overload
 97.0,317.0,overload
 96.0,328.0,overload
 93.0,332.0,overload
@@ -7328,7 +7328,7 @@ pumpControl,pressure,state
 93.0,292.0,overload
 94.0,335.0,overload
 94.0,348.0,overload
--7.458961610469092,356.0,overload
+96.0,356.0,overload
 95.0,309.0,overload
 94.0,379.0,overload
 95.0,346.0,overload
@@ -7410,7 +7410,7 @@ pumpControl,pressure,state
 94.0,331.0,overload
 95.0,356.0,overload
 96.0,346.0,overload
-96.0,361.0,overload
+,361.0,overload
 94.0,321.0,overload
 97.0,330.0,overload
 93.0,309.0,overload
@@ -7547,7 +7547,7 @@ pumpControl,pressure,state
 92.0,352.0,overload
 92.0,340.0,overload
 94.0,355.0,overload
-92.0,,overload
+92.0,346.0,overload
 93.0,331.0,overload
 88.0,375.0,overload
 88.0,366.0,overload
@@ -7583,7 +7583,7 @@ pumpControl,pressure,state
 95.0,338.0,overload
 96.0,339.0,overload
 94.0,338.0,overload
-95.0,,overload
+95.0,334.0,overload
 94.0,333.0,overload
 96.0,343.0,overload
 99.0,342.0,overload
@@ -7596,7 +7596,7 @@ pumpControl,pressure,state
 95.0,345.0,overload
 95.0,344.0,overload
 93.0,335.0,overload
-96.0,358.0,overload
+96.0,358.0,
 92.0,313.0,overload
 93.0,357.0,overload
 97.0,324.0,overload
@@ -7624,7 +7624,7 @@ pumpControl,pressure,state
 95.0,353.0,overload
 89.0,332.0,overload
 94.0,336.0,overload
-97.0,320.0,overload
+97.0,320.0,
 93.0,307.0,overload
 97.0,335.0,overload
 94.0,339.0,overload
@@ -7862,7 +7862,7 @@ pumpControl,pressure,state
 94.0,326.0,overload
 96.0,335.0,overload
 92.0,349.0,overload
-106.83280395203154,320.0,overload
+92.0,320.0,overload
 97.0,319.0,overload
 90.0,350.0,overload
 94.0,336.0,overload
@@ -7963,7 +7963,7 @@ pumpControl,pressure,state
 93.0,354.0,overload
 93.0,319.0,overload
 95.0,336.0,overload
-92.0,350.0,overload
+,350.0,overload
 95.0,333.0,overload
 94.0,347.0,overload
 97.0,335.0,overload
@@ -8058,7 +8058,7 @@ pumpControl,pressure,state
 95.0,322.0,overload
 92.0,369.0,overload
 96.0,335.0,overload
-94.0,348.0,overload
+,348.0,overload
 96.0,327.0,overload
 95.0,331.0,overload
 94.0,342.0,overload
@@ -8158,7 +8158,7 @@ pumpControl,pressure,state
 93.0,336.0,overload
 98.0,336.0,overload
 92.0,328.0,overload
-93.0,346.0,overload
+,346.0,overload
 93.0,344.0,overload
 93.0,303.0,overload
 93.0,304.0,overload
@@ -8186,7 +8186,7 @@ pumpControl,pressure,state
 95.0,365.0,overload
 93.0,350.0,overload
 92.0,343.0,overload
-,315.0,overload
+96.0,315.0,overload
 94.0,352.0,overload
 89.0,362.0,overload
 95.0,352.0,overload
@@ -8251,7 +8251,7 @@ pumpControl,pressure,state
 96.0,331.0,overload
 93.0,329.0,overload
 92.0,340.0,overload
-93.0,353.0,overload
+93.0,,overload
 96.0,368.0,overload
 95.0,348.0,overload
 97.0,329.0,overload
@@ -8321,7 +8321,7 @@ pumpControl,pressure,state
 98.0,310.0,overload
 96.0,350.0,overload
 94.0,352.0,overload
-106.68436437220565,341.0,overload
+96.0,341.0,overload
 95.0,356.0,overload
 92.0,341.0,overload
 95.0,329.0,overload
@@ -8343,7 +8343,7 @@ pumpControl,pressure,state
 92.0,339.0,overload
 97.0,369.0,overload
 94.0,340.0,overload
-99.0,,overload
+99.0,359.0,overload
 93.0,329.0,overload
 96.0,322.0,overload
 97.0,345.0,overload
@@ -8356,7 +8356,7 @@ pumpControl,pressure,state
 93.0,310.0,overload
 91.0,315.0,overload
 97.0,340.0,overload
-95.0,349.0,overload
+-9.996900555878492,349.0,overload
 95.0,338.0,overload
 96.0,342.0,overload
 97.0,350.0,overload
@@ -8379,7 +8379,7 @@ pumpControl,pressure,state
 93.0,365.0,overload
 91.0,351.0,overload
 92.0,323.0,overload
-91.0,330.0,overload
+-1.840121609466781,330.0,overload
 97.0,344.0,overload
 92.0,357.0,overload
 97.0,341.0,overload
@@ -8489,7 +8489,7 @@ pumpControl,pressure,state
 95.0,329.0,overload
 92.0,350.0,overload
 94.0,342.0,overload
-94.0,339.0,overload
+94.0,,overload
 94.0,323.0,overload
 95.0,329.0,overload
 95.0,346.0,overload
@@ -8705,11 +8705,11 @@ pumpControl,pressure,state
 90.0,312.0,overload
 93.0,305.0,overload
 91.0,296.0,overload
-95.0,325.0,overload
+95.0,,overload
 91.0,336.0,overload
 95.0,329.0,overload
 96.0,325.0,overload
-95.0,331.0,overload
+,331.0,overload
 97.0,328.0,overload
 94.0,356.0,overload
 93.0,341.0,overload
@@ -8762,7 +8762,7 @@ pumpControl,pressure,state
 95.0,343.0,overload
 94.0,373.0,overload
 93.0,343.0,overload
-95.0,357.0,overload
+,357.0,overload
 97.0,339.0,overload
 95.0,345.0,overload
 90.0,312.0,overload
@@ -8799,7 +8799,7 @@ pumpControl,pressure,state
 95.0,357.0,overload
 93.0,356.0,overload
 94.0,314.0,overload
-93.0,349.0,
+93.0,349.0,overload
 93.0,367.0,overload
 97.0,362.0,overload
 95.0,344.0,overload
@@ -8837,7 +8837,7 @@ pumpControl,pressure,state
 95.0,362.0,overload
 95.0,350.0,overload
 98.0,345.0,overload
-94.0,326.0,overload
+94.0,,overload
 98.0,348.0,overload
 93.0,320.0,overload
 97.0,322.0,overload
@@ -8918,7 +8918,7 @@ pumpControl,pressure,state
 88.0,320.0,overload
 95.0,325.0,overload
 92.0,308.0,overload
--2.022952084780578,302.0,overload
+92.0,302.0,overload
 93.0,324.0,overload
 95.0,342.0,overload
 95.0,343.0,overload
@@ -8929,7 +8929,7 @@ pumpControl,pressure,state
 98.0,343.0,overload
 95.0,354.0,overload
 91.0,340.0,overload
-96.0,329.0,overload
+102.512803736814,329.0,overload
 92.0,336.0,overload
 94.0,324.0,overload
 98.0,331.0,overload
@@ -9132,7 +9132,7 @@ pumpControl,pressure,state
 43.0,7.0,hose_break
 83.0,7.0,hose_break
 85.0,8.0,hose_break
-86.0,13.0,hose_break
+86.0,,hose_break
 74.0,11.0,hose_break
 83.0,11.0,hose_break
 81.0,13.0,hose_break
@@ -9189,9 +9189,9 @@ pumpControl,pressure,state
 39.0,11.0,hose_break
 82.0,5.0,hose_break
 86.0,16.0,hose_break
-,14.0,hose_break
+83.0,14.0,hose_break
 81.0,10.0,hose_break
-88.0,9.0,hose_break
+88.0,,hose_break
 83.0,12.0,hose_break
 93.0,10.0,hose_break
 82.0,9.0,hose_break
@@ -9252,7 +9252,7 @@ pumpControl,pressure,state
 83.0,12.0,hose_break
 42.0,8.0,hose_break
 88.0,11.0,hose_break
-,244.0,hose_break
+85.0,244.0,hose_break
 85.0,162.0,hose_break
 85.0,81.0,hose_break
 90.0,8.0,hose_break
@@ -9367,7 +9367,7 @@ pumpControl,pressure,state
 83.0,5.0,hose_break
 76.0,6.0,hose_break
 87.0,6.0,hose_break
-83.0,15.0,hose_break
+,15.0,hose_break
 84.0,11.0,hose_break
 80.0,16.0,hose_break
 38.0,9.0,hose_break
@@ -9377,12 +9377,12 @@ pumpControl,pressure,state
 87.0,8.0,hose_break
 81.0,8.0,hose_break
 79.0,5.0,hose_break
-86.0,-4.517558584218362,hose_break
+86.0,12.0,hose_break
 88.0,2.0,hose_break
 83.0,6.0,hose_break
 40.0,8.0,hose_break
 87.0,9.0,hose_break
-76.0,7.0,hose_break
+108.92339605354768,7.0,hose_break
 85.0,10.0,hose_break
 79.0,5.0,hose_break
 85.0,5.0,hose_break
@@ -9436,7 +9436,7 @@ pumpControl,pressure,state
 83.0,6.0,hose_break
 78.0,11.0,hose_break
 40.0,6.0,hose_break
-38.0,-6.830475707695557,hose_break
+38.0,13.0,hose_break
 81.0,10.0,hose_break
 84.0,11.0,hose_break
 81.0,10.0,hose_break
@@ -9468,7 +9468,7 @@ pumpControl,pressure,state
 90.0,13.0,hose_break
 83.0,6.0,hose_break
 83.0,8.0,hose_break
-107.77219125305363,9.0,hose_break
+86.0,9.0,hose_break
 81.0,13.0,hose_break
 40.0,11.0,hose_break
 77.0,2.0,hose_break
@@ -9522,7 +9522,7 @@ pumpControl,pressure,state
 91.0,13.0,hose_break
 83.0,5.0,hose_break
 42.0,14.0,hose_break
-82.0,12.0,hose_break
+-6.733013281708395,12.0,hose_break
 83.0,14.0,hose_break
 82.0,15.0,hose_break
 41.0,15.0,hose_break
@@ -9622,7 +9622,7 @@ pumpControl,pressure,state
 85.0,10.0,hose_break
 87.0,7.0,hose_break
 92.0,10.0,hose_break
-109.91061624818627,9.0,hose_break
+80.0,9.0,hose_break
 39.0,18.0,hose_break
 89.0,10.0,hose_break
 84.0,12.0,hose_break
@@ -9678,8 +9678,8 @@ pumpControl,pressure,state
 90.0,8.0,hose_break
 83.0,10.0,hose_break
 77.0,9.0,hose_break
-74.0,8.0,hose_break
-,11.0,hose_break
+-7.677022987882131,8.0,hose_break
+88.0,11.0,hose_break
 82.0,10.0,hose_break
 80.0,9.0,hose_break
 97.0,15.0,hose_break
@@ -9717,7 +9717,7 @@ pumpControl,pressure,state
 79.0,5.0,hose_break
 78.0,12.0,hose_break
 74.0,8.0,hose_break
-38.0,9.0,hose_break
+-4.153708296775458,9.0,hose_break
 77.0,11.0,hose_break
 79.0,13.0,hose_break
 82.0,9.0,hose_break
@@ -9777,7 +9777,7 @@ pumpControl,pressure,state
 81.0,7.0,hose_break
 78.0,7.0,hose_break
 40.0,7.0,hose_break
-107.53940830294228,13.0,hose_break
+68.0,13.0,hose_break
 77.0,11.0,hose_break
 85.0,16.0,hose_break
 89.0,8.0,hose_break
@@ -9823,7 +9823,7 @@ pumpControl,pressure,state
 82.0,8.0,hose_break
 39.0,13.0,hose_break
 90.0,5.0,hose_break
-89.0,12.0,hose_break
+107.96021296818012,12.0,hose_break
 43.0,11.0,hose_break
 39.0,13.0,hose_break
 87.0,16.0,hose_break
@@ -9841,7 +9841,7 @@ pumpControl,pressure,state
 88.0,8.0,hose_break
 89.0,10.0,hose_break
 39.0,12.0,hose_break
-38.0,,hose_break
+38.0,9.0,hose_break
 87.0,9.0,hose_break
 93.0,12.0,hose_break
 41.0,9.0,hose_break
@@ -9881,7 +9881,7 @@ pumpControl,pressure,state
 90.0,12.0,hose_break
 39.0,3.0,hose_break
 89.0,8.0,hose_break
-86.0,10.0,
+86.0,10.0,hose_break
 91.0,9.0,hose_break
 84.0,14.0,hose_break
 38.0,12.0,hose_break
@@ -9973,7 +9973,7 @@ pumpControl,pressure,state
 81.0,12.0,hose_break
 81.0,7.0,hose_break
 41.0,5.0,hose_break
-76.0,8.0,hose_break
+,8.0,hose_break
 78.0,5.0,hose_break
 41.0,12.0,hose_break
 88.0,13.0,hose_break

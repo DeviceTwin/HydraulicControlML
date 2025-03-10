@@ -132,6 +132,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5487804878048781,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.25609756097560976,0.10672853828306264,normal_empty,2,False,False,True,False,False
+0.2804878048780488,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.2804878048780488,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.2804878048780488,0.1136890951276102,normal_empty,2,False,False,True,False,False
@@ -241,7 +242,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6219512195121952,0.3990719257540603,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.4176334106728538,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.38979118329466356,normal_digging,0,False,True,False,False,False
-0.6097560975609757,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.6707317073170732,0.42923433874709976,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.43851508120649646,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.3990719257540603,normal_digging,0,False,True,False,False,False
@@ -260,6 +260,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6341463414634146,0.42691415313225056,normal_digging,0,False,True,False,False,False
 0.46341463414634154,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.3758700696055684,normal_digging,0,False,True,False,False,False
+0.4878048780487806,0.3410672853828306,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3433874709976798,normal_digging,0,False,True,False,False,False
@@ -309,6 +310,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.3902439024390244,0.3248259860788863,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.32714617169373544,normal_digging,0,False,True,False,False,False
 0.41463414634146345,0.3387470997679814,normal_digging,0,False,True,False,False,False
+0.41463414634146345,0.31554524361948955,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.3201856148491879,normal_digging,0,False,True,False,False,False
 0.3902439024390244,0.33642691415313225,normal_digging,0,False,True,False,False,False
 0.35365853658536595,0.3410672853828306,normal_digging,0,False,True,False,False,False
@@ -360,8 +362,8 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.42691415313225056,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.41995359628770296,normal_digging,0,False,True,False,False,False
+0.6097560975609757,0.40139211136890945,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.3967517401392111,normal_digging,0,False,True,False,False,False
-0.6341463414634146,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.42227378190255216,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4315545243619489,normal_digging,0,False,True,False,False,False
 0.6707317073170732,0.4315545243619489,normal_digging,0,False,True,False,False,False
@@ -398,6 +400,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7195121951219513,0.4501160092807424,normal_full,1,False,False,False,True,False
 0.6951219512195123,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.4547563805104408,normal_full,1,False,False,False,True,False
+0.6951219512195123,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.7195121951219513,0.44315545243619486,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.7317073170731708,0.46403712296983757,normal_full,1,False,False,False,True,False
@@ -445,6 +448,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5609756097560976,0.39211136890951276,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.38515081206496515,normal_digging,0,False,True,False,False,False
+0.5731707317073171,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.39211136890951276,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.42459396751740136,normal_digging,0,False,True,False,False,False
@@ -601,7 +605,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06960556844547564,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06960556844547564,normal_empty,2,False,False,True,False,False
-0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.07192575406032482,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06728538283062645,normal_empty,2,False,False,True,False,False
@@ -691,6 +694,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.14634146341463414,0.08584686774941995,normal_empty,2,False,False,True,False,False
 0.15853658536585366,0.09048723897911833,normal_empty,2,False,False,True,False,False
 0.13414634146341467,0.09048723897911833,normal_empty,2,False,False,True,False,False
+0.12195121951219515,0.08584686774941995,normal_empty,2,False,False,True,False,False
 0.15853658536585366,0.08584686774941995,normal_empty,2,False,False,True,False,False
 0.13414634146341467,0.09048723897911833,normal_empty,2,False,False,True,False,False
 0.15853658536585366,0.09280742459396751,normal_empty,2,False,False,True,False,False
@@ -819,7 +823,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.4315545243619489,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.38515081206496515,normal_digging,0,False,True,False,False,False
-0.5731707317073171,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.40835266821345706,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.38979118329466356,normal_digging,0,False,True,False,False,False
@@ -901,7 +904,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8658536585365855,0.5243619489559165,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.4895591647331786,normal_full,1,False,False,False,True,False
 0.7439024390243903,0.4918793503480278,normal_full,1,False,False,False,True,False
-0.8048780487804879,0.4872389791183294,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.5081206496519721,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.49419953596287697,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.5150812064965198,normal_full,1,False,False,False,True,False
@@ -913,6 +915,8 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7804878048780488,0.5081206496519721,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.5034802784222738,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.4686774941995359,normal_full,1,False,False,False,True,False
+0.7926829268292683,0.5081206496519721,normal_full,1,False,False,False,True,False
+0.8170731707317074,0.48491879350348027,normal_full,1,False,False,False,True,False
 0.853658536585366,0.4895591647331786,normal_full,1,False,False,False,True,False
 0.8414634146341464,0.5150812064965198,normal_full,1,False,False,False,True,False
 0.7926829268292683,0.54292343387471,normal_full,1,False,False,False,True,False
@@ -1021,7 +1025,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6097560975609757,0.42923433874709976,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4176334106728538,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.4129930394431554,normal_digging,0,False,True,False,False,False
-0.6341463414634146,0.4129930394431554,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.4129930394431554,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.42923433874709976,normal_digging,0,False,True,False,False,False
@@ -1216,7 +1219,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5731707317073171,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3781902552204176,normal_digging,0,False,True,False,False,False
-0.5609756097560976,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.4153132250580046,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3944315545243619,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.3990719257540603,normal_digging,0,False,True,False,False,False
@@ -1417,7 +1419,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7926829268292683,0.49651972157772617,normal_full,1,False,False,False,True,False
 0.7926829268292683,0.5243619489559165,normal_full,1,False,False,False,True,False
 0.7804878048780488,0.5104408352668214,normal_full,1,False,False,False,True,False
-0.6585365853658537,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.4176334106728538,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.42227378190255216,normal_digging,0,False,True,False,False,False
@@ -1497,6 +1498,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7195121951219513,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.48491879350348027,normal_full,1,False,False,False,True,False
 0.6585365853658537,0.4338747099767981,normal_full,1,False,False,False,True,False
+0.6707317073170732,0.48027842227378187,normal_full,1,False,False,False,True,False
 0.6463414634146342,0.40835266821345706,normal_full,1,False,False,False,True,False
 0.6707317073170732,0.4709976798143851,normal_full,1,False,False,False,True,False
 0.7195121951219513,0.4524361948955916,normal_full,1,False,False,False,True,False
@@ -1635,7 +1637,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.5487804878048781,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.35266821345707655,normal_digging,0,False,True,False,False,False
-0.5975609756097562,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.37354988399071926,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.40835266821345706,normal_digging,0,False,True,False,False,False
@@ -1644,6 +1645,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.40835266821345706,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.38979118329466356,normal_digging,0,False,True,False,False,False
+0.5365853658536586,0.3990719257540603,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3758700696055684,normal_digging,0,False,True,False,False,False
@@ -1773,6 +1775,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6585365853658537,0.4153132250580046,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4315545243619489,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.42923433874709976,normal_digging,0,False,True,False,False,False
+0.6219512195121952,0.4361948955916473,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4176334106728538,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.41995359628770296,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.40371229698375866,normal_digging,0,False,True,False,False,False
@@ -1798,6 +1801,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5487804878048781,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.3967517401392111,normal_digging,0,False,True,False,False,False
+0.524390243902439,0.39211136890951276,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3805104408352668,normal_digging,0,False,True,False,False,False
@@ -1910,7 +1914,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.524390243902439,0.34802784222737815,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3619489559164733,normal_digging,0,False,True,False,False,False
-0.5,0.34570765661252895,normal_digging,0,False,True,False,False,False
 0.5,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.35034802784222735,normal_digging,0,False,True,False,False,False
 0.5,0.36658932714617165,normal_digging,0,False,True,False,False,False
@@ -2004,6 +2007,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.524390243902439,0.34570765661252895,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.3248259860788863,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.38283062645011595,normal_digging,0,False,True,False,False,False
+0.5121951219512195,0.36426914153132245,normal_digging,0,False,True,False,False,False
 0.5,0.3573085846867749,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.37122969837587005,normal_digging,0,False,True,False,False,False
@@ -2032,6 +2036,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.4129930394431554,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3944315545243619,normal_digging,0,False,True,False,False,False
+0.5975609756097562,0.37354988399071926,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.39211136890951276,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.3781902552204176,normal_digging,0,False,True,False,False,False
@@ -2072,6 +2077,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.24390243902439027,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.10904872389791183,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
+0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.29268292682926833,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10904872389791183,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.10904872389791183,normal_empty,2,False,False,True,False,False
@@ -2100,6 +2106,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6341463414634146,0.4153132250580046,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.4361948955916473,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.42227378190255216,normal_digging,0,False,True,False,False,False
+0.5853658536585367,0.3944315545243619,normal_digging,0,False,True,False,False,False
 0.9146341463414636,0.5452436194895591,normal_full,1,False,False,False,True,False
 0.9146341463414636,0.5522041763341068,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.5730858468677494,normal_full,1,False,False,False,True,False
@@ -2159,7 +2166,9 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6097560975609757,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.4153132250580046,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.38515081206496515,normal_digging,0,False,True,False,False,False
+0.6341463414634146,0.42691415313225056,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40835266821345706,normal_digging,0,False,True,False,False,False
+0.6463414634146342,0.42459396751740136,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40139211136890945,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4338747099767981,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.4501160092807424,normal_digging,0,False,True,False,False,False
@@ -2171,7 +2180,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5731707317073171,0.44779582366589327,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40139211136890945,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.4176334106728538,normal_digging,0,False,True,False,False,False
-0.5487804878048781,0.3944315545243619,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.3990719257540603,normal_digging,0,False,True,False,False,False
@@ -2239,6 +2247,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6097560975609757,0.3990719257540603,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.3990719257540603,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.41995359628770296,normal_digging,0,False,True,False,False,False
+0.6341463414634146,0.3990719257540603,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.4315545243619489,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.44779582366589327,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.4338747099767981,normal_digging,0,False,True,False,False,False
@@ -2296,7 +2305,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6585365853658537,0.42227378190255216,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.42923433874709976,normal_digging,0,False,True,False,False,False
-0.6097560975609757,0.36658932714617165,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.3944315545243619,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.36658932714617165,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.4153132250580046,normal_digging,0,False,True,False,False,False
@@ -2371,6 +2379,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8414634146341464,0.48259860788863107,normal_full,1,False,False,False,True,False
 0.6951219512195123,0.46635730858468677,normal_full,1,False,False,False,True,False
 0.6463414634146342,0.44315545243619486,normal_full,1,False,False,False,True,False
+0.7682926829268293,0.4547563805104408,normal_full,1,False,False,False,True,False
 0.7073170731707318,0.44779582366589327,normal_full,1,False,False,False,True,False
 0.6341463414634146,0.45707656612528996,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.4524361948955916,normal_full,1,False,False,False,True,False
@@ -2388,6 +2397,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6951219512195123,0.45707656612528996,normal_full,1,False,False,False,True,False
 0.7195121951219513,0.44547563805104406,normal_full,1,False,False,False,True,False
 0.7073170731707318,0.4547563805104408,normal_full,1,False,False,False,True,False
+0.6829268292682927,0.45707656612528996,normal_full,1,False,False,False,True,False
 0.6707317073170732,0.45939675174013916,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.46403712296983757,normal_full,1,False,False,False,True,False
 0.6951219512195123,0.47563805104408347,normal_full,1,False,False,False,True,False
@@ -2415,6 +2425,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.975609756097561,0.5846867749419954,normal_full,1,False,False,False,True,False
 0.8292682926829269,0.5591647331786543,normal_full,1,False,False,False,True,False
 0.853658536585366,0.531322505800464,normal_full,1,False,False,False,True,False
+0.8292682926829269,0.5638051044083527,normal_full,1,False,False,False,True,False
 0.853658536585366,0.5754060324825986,normal_full,1,False,False,False,True,False
 0.902439024390244,0.5846867749419954,normal_full,1,False,False,False,True,False
 0.8414634146341464,0.5638051044083527,normal_full,1,False,False,False,True,False
@@ -2434,7 +2445,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6707317073170732,0.48491879350348027,normal_full,1,False,False,False,True,False
 0.7073170731707318,0.46403712296983757,normal_full,1,False,False,False,True,False
 0.6585365853658537,0.46403712296983757,normal_full,1,False,False,False,True,False
-0.7195121951219513,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.7317073170731708,0.48491879350348027,normal_full,1,False,False,False,True,False
 0.9268292682926831,0.5591647331786543,normal_full,1,False,False,False,True,False
 0.8902439024390245,0.5846867749419954,normal_full,1,False,False,False,True,False
@@ -2468,7 +2478,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.2682926829268293,0.10208816705336426,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.11600928074245939,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.11136890951276102,normal_empty,2,False,False,True,False,False
-0.2682926829268293,0.12064965197215777,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.12296983758700696,normal_empty,2,False,False,True,False,False
 0.23170731707317074,0.11600928074245939,normal_empty,2,False,False,True,False,False
@@ -2603,7 +2612,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7073170731707318,0.4686774941995359,normal_full,1,False,False,False,True,False
 0.6585365853658537,0.4501160092807424,normal_full,1,False,False,False,True,False
 0.6707317073170732,0.4338747099767981,normal_full,1,False,False,False,True,False
-0.6707317073170732,0.43851508120649646,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.44779582366589327,normal_full,1,False,False,False,True,False
 0.5853658536585367,0.44779582366589327,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.40139211136890945,normal_digging,0,False,True,False,False,False
@@ -2664,6 +2672,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.012195121951219523,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06728538283062645,normal_empty,2,False,False,True,False,False
+0.03658536585365854,0.060324825986078884,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.07192575406032482,normal_empty,2,False,False,True,False,False
@@ -2741,7 +2750,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.4024390243902439,0.3225058004640371,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.3201856148491879,normal_digging,0,False,True,False,False,False
 0.4024390243902439,0.31090487238979114,normal_digging,0,False,True,False,False,False
-0.4024390243902439,0.3248259860788863,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.31786542923433875,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.33410672853828305,normal_digging,0,False,True,False,False,False
@@ -2783,7 +2791,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5853658536585367,0.41995359628770296,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.39211136890951276,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.35034802784222735,normal_digging,0,False,True,False,False,False
-0.5609756097560976,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3619489559164733,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3990719257540603,normal_digging,0,False,True,False,False,False
@@ -2894,7 +2901,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.42691415313225056,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.43851508120649646,normal_digging,0,False,True,False,False,False
-0.5975609756097562,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.3944315545243619,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.40603248259860786,normal_digging,0,False,True,False,False,False
@@ -2950,7 +2956,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5121951219512195,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.46341463414634154,0.34570765661252895,normal_digging,0,False,True,False,False,False
-0.5121951219512195,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5,0.3758700696055684,normal_digging,0,False,True,False,False,False
@@ -3038,6 +3043,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.6097560975609757,0.4176334106728538,normal_digging,0,False,True,False,False,False
 0.6707317073170732,0.40139211136890945,normal_digging,0,False,True,False,False,False
+0.6585365853658537,0.43851508120649646,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.6707317073170732,0.4153132250580046,normal_digging,0,False,True,False,False,False
@@ -3215,13 +3221,11 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.902439024390244,0.5336426914153133,normal_full,1,False,False,False,True,False
 0.8658536585365855,0.5591647331786543,normal_full,1,False,False,False,True,False
 0.8902439024390245,0.5081206496519721,normal_full,1,False,False,False,True,False
-0.8414634146341464,0.5452436194895591,normal_full,1,False,False,False,True,False
 0.8902439024390245,0.6078886310904873,normal_full,1,False,False,False,True,False
 0.8658536585365855,0.5220417633410673,normal_full,1,False,False,False,True,False
 0.8902439024390245,0.5823665893271461,normal_full,1,False,False,False,True,False
 0.878048780487805,0.5336426914153133,normal_full,1,False,False,False,True,False
 0.902439024390244,0.568445475638051,normal_full,1,False,False,False,True,False
-0.8414634146341464,0.5614849187935035,normal_full,1,False,False,False,True,False
 0.902439024390244,0.580046403712297,normal_full,1,False,False,False,True,False
 0.8658536585365855,0.5452436194895591,normal_full,1,False,False,False,True,False
 0.9146341463414636,0.5266821345707657,normal_full,1,False,False,False,True,False
@@ -3250,6 +3254,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.47560975609756106,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5,0.38515081206496515,normal_digging,0,False,True,False,False,False
+0.5121951219512195,0.3573085846867749,normal_digging,0,False,True,False,False,False
 0.5,0.34802784222737815,normal_digging,0,False,True,False,False,False
 0.5,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.38747099767981436,normal_digging,0,False,True,False,False,False
@@ -3268,6 +3273,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5365853658536586,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.36426914153132245,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.37122969837587005,normal_digging,0,False,True,False,False,False
+0.5,0.35034802784222735,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.3596287703016241,normal_digging,0,False,True,False,False,False
 0.46341463414634154,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5,0.3596287703016241,normal_digging,0,False,True,False,False,False
@@ -3444,6 +3450,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5,0.34802784222737815,normal_digging,0,False,True,False,False,False
 0.5,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.38283062645011595,normal_digging,0,False,True,False,False,False
+0.46341463414634154,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.46341463414634154,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.38515081206496515,normal_digging,0,False,True,False,False,False
@@ -3460,7 +3467,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5487804878048781,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.38283062645011595,normal_digging,0,False,True,False,False,False
-0.5365853658536586,0.3387470997679814,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5,0.3573085846867749,normal_digging,0,False,True,False,False,False
 0.47560975609756106,0.3596287703016241,normal_digging,0,False,True,False,False,False
@@ -3475,6 +3481,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.524390243902439,0.36426914153132245,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.38747099767981436,normal_digging,0,False,True,False,False,False
+0.5365853658536586,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.5,0.37354988399071926,normal_digging,0,False,True,False,False,False
@@ -3529,7 +3536,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5365853658536586,0.35266821345707655,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3619489559164733,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3619489559164733,normal_digging,0,False,True,False,False,False
-0.4878048780487806,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.5,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.5,0.36658932714617165,normal_digging,0,False,True,False,False,False
 0.5365853658536586,0.3387470997679814,normal_digging,0,False,True,False,False,False
@@ -3573,6 +3579,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.2682926829268293,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10904872389791183,normal_empty,2,False,False,True,False,False
 0.23170731707317074,0.1136890951276102,normal_empty,2,False,False,True,False,False
+0.2682926829268293,0.11832946635730858,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.11832946635730858,normal_empty,2,False,False,True,False,False
 0.29268292682926833,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.11136890951276102,normal_empty,2,False,False,True,False,False
@@ -3587,6 +3594,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.24390243902439027,0.12064965197215777,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.11600928074245939,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.11832946635730858,normal_empty,2,False,False,True,False,False
+0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.10904872389791183,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.10904872389791183,normal_empty,2,False,False,True,False,False
@@ -3658,7 +3666,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5731707317073171,0.42227378190255216,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.40139211136890945,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3967517401392111,normal_digging,0,False,True,False,False,False
-0.5853658536585367,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3967517401392111,normal_digging,0,False,True,False,False,False
@@ -3701,7 +3708,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.03658536585365854,0.06264501160092807,normal_empty,2,False,False,True,False,False
-0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06960556844547564,normal_empty,2,False,False,True,False,False
@@ -3806,7 +3812,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.524390243902439,0.3387470997679814,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.36426914153132245,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.3573085846867749,normal_digging,0,False,True,False,False,False
-0.5,0.31322505800464034,normal_digging,0,False,True,False,False,False
 0.4878048780487806,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.5,0.38979118329466356,normal_digging,0,False,True,False,False,False
@@ -4082,7 +4087,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6463414634146342,0.42227378190255216,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.40603248259860786,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.4501160092807424,normal_digging,0,False,True,False,False,False
-0.6219512195121952,0.42691415313225056,normal_digging,0,False,True,False,False,False
 0.6341463414634146,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.40371229698375866,normal_digging,0,False,True,False,False,False
 0.6585365853658537,0.42691415313225056,normal_digging,0,False,True,False,False,False
@@ -4216,6 +4220,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5975609756097562,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.40371229698375866,normal_digging,0,False,True,False,False,False
+0.5853658536585367,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.40835266821345706,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.38747099767981436,normal_digging,0,False,True,False,False,False
@@ -4392,6 +4397,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6951219512195123,0.44779582366589327,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.46171693735498837,normal_full,1,False,False,False,True,False
 0.5609756097560976,0.40139211136890945,normal_digging,0,False,True,False,False,False
+0.6097560975609757,0.3781902552204176,normal_digging,0,False,True,False,False,False
 0.524390243902439,0.3596287703016241,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.39211136890951276,normal_digging,0,False,True,False,False,False
@@ -4407,6 +4413,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5609756097560976,0.37122969837587005,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.38515081206496515,normal_digging,0,False,True,False,False,False
+0.5853658536585367,0.38515081206496515,normal_digging,0,False,True,False,False,False
 0.6097560975609757,0.3967517401392111,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.38747099767981436,normal_digging,0,False,True,False,False,False
@@ -4444,7 +4451,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5487804878048781,0.38283062645011595,normal_digging,0,False,True,False,False,False
 0.5609756097560976,0.40835266821345706,normal_digging,0,False,True,False,False,False
 0.7804878048780488,0.49883990719257537,normal_full,1,False,False,False,True,False
-0.8414634146341464,0.5011600928074246,normal_full,1,False,False,False,True,False
 0.8292682926829269,0.5034802784222738,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.5011600928074246,normal_full,1,False,False,False,True,False
 0.8292682926829269,0.47563805104408347,normal_full,1,False,False,False,True,False
@@ -4688,6 +4694,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.35365853658536595,0.31786542923433875,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.3225058004640371,normal_digging,0,False,True,False,False,False
 0.41463414634146345,0.29930394431554525,normal_digging,0,False,True,False,False,False
+0.36585365853658547,0.31322505800464034,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.33178654292343385,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.32714617169373544,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.3248259860788863,normal_digging,0,False,True,False,False,False
@@ -4713,6 +4720,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.25609756097560976,0.1136890951276102,normal_empty,2,False,False,True,False,False
 0.24390243902439027,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.2804878048780488,0.11600928074245939,normal_empty,2,False,False,True,False,False
+0.2682926829268293,0.12064965197215777,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.11832946635730858,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.29268292682926833,0.11600928074245939,normal_empty,2,False,False,True,False,False
@@ -4720,13 +4728,13 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.25609756097560976,0.11600928074245939,normal_empty,2,False,False,True,False,False
 0.0,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
+0.02439024390243902,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.03658536585365854,0.06960556844547564,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.07192575406032482,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.07192575406032482,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
-0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06960556844547564,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
@@ -4795,7 +4803,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8048780487804879,0.5127610208816705,normal_full,1,False,False,False,True,False
 0.8048780487804879,0.5104408352668214,normal_full,1,False,False,False,True,False
 0.7926829268292683,0.5336426914153133,normal_full,1,False,False,False,True,False
-0.8048780487804879,0.49883990719257537,normal_full,1,False,False,False,True,False
 0.7804878048780488,0.5127610208816705,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.5150812064965198,normal_full,1,False,False,False,True,False
 0.7804878048780488,0.4733178654292343,normal_full,1,False,False,False,True,False
@@ -5008,7 +5015,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.13414634146341467,0.08352668213457076,normal_empty,2,False,False,True,False,False
 0.14634146341463414,0.0951276102088167,normal_empty,2,False,False,True,False,False
 0.13414634146341467,0.08584686774941995,normal_empty,2,False,False,True,False,False
-0.10975609756097562,0.08584686774941995,normal_empty,2,False,False,True,False,False
 0.13414634146341467,0.0951276102088167,normal_empty,2,False,False,True,False,False
 0.14634146341463414,0.09048723897911833,normal_empty,2,False,False,True,False,False
 0.13414634146341467,0.08816705336426914,normal_empty,2,False,False,True,False,False
@@ -5024,6 +5030,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.25609756097560976,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.30487804878048785,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10440835266821345,normal_empty,2,False,False,True,False,False
+0.25609756097560976,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.09976798143851508,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10672853828306264,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10672853828306264,normal_empty,2,False,False,True,False,False
@@ -5038,6 +5045,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.23170731707317074,0.11136890951276102,normal_empty,2,False,False,True,False,False
 0.2682926829268293,0.10904872389791183,normal_empty,2,False,False,True,False,False
 0.25609756097560976,0.10672853828306264,normal_empty,2,False,False,True,False,False
+0.02439024390243902,0.06960556844547564,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06960556844547564,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
@@ -5072,7 +5080,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.4024390243902439,0.32714617169373544,normal_digging,0,False,True,False,False,False
 0.4024390243902439,0.31786542923433875,normal_digging,0,False,True,False,False,False
 0.3414634146341464,0.32714617169373544,normal_digging,0,False,True,False,False,False
-0.4024390243902439,0.33410672853828305,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.3225058004640371,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.31090487238979114,normal_digging,0,False,True,False,False,False
 0.4024390243902439,0.3062645011600928,normal_digging,0,False,True,False,False,False
@@ -5245,6 +5252,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.03658536585365854,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.02439024390243902,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06960556844547564,normal_empty,2,False,False,True,False,False
+0.0,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
@@ -5330,6 +5338,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.41463414634146345,0.30858468677494194,normal_digging,0,False,True,False,False,False
 0.6829268292682927,0.4338747099767981,normal_full,1,False,False,False,True,False
 0.7195121951219513,0.46403712296983757,normal_full,1,False,False,False,True,False
+0.6707317073170732,0.4524361948955916,normal_full,1,False,False,False,True,False
 0.7317073170731708,0.45939675174013916,normal_full,1,False,False,False,True,False
 0.6829268292682927,0.44315545243619486,normal_full,1,False,False,False,True,False
 0.6341463414634146,0.45707656612528996,normal_full,1,False,False,False,True,False
@@ -5339,6 +5348,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.6829268292682927,0.45939675174013916,normal_full,1,False,False,False,True,False
 0.6951219512195123,0.44315545243619486,normal_full,1,False,False,False,True,False
 0.7195121951219513,0.4686774941995359,normal_full,1,False,False,False,True,False
+0.6829268292682927,0.4895591647331786,normal_full,1,False,False,False,True,False
 0.7317073170731708,0.47795823665893267,normal_full,1,False,False,False,True,False
 0.6097560975609757,0.4895591647331786,normal_full,1,False,False,False,True,False
 0.7073170731707318,0.49883990719257537,normal_full,1,False,False,False,True,False
@@ -5395,6 +5405,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.4024390243902439,0.3248259860788863,normal_digging,0,False,True,False,False,False
 0.4024390243902439,0.32946635730858465,normal_digging,0,False,True,False,False,False
 0.41463414634146345,0.29698375870069604,normal_digging,0,False,True,False,False,False
+0.4024390243902439,0.33410672853828305,normal_digging,0,False,True,False,False,False
 0.35365853658536595,0.31090487238979114,normal_digging,0,False,True,False,False,False
 0.36585365853658547,0.31090487238979114,normal_digging,0,False,True,False,False,False
 0.3780487804878049,0.3248259860788863,normal_digging,0,False,True,False,False,False
@@ -5519,7 +5530,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8292682926829269,0.5081206496519721,normal_full,1,False,False,False,True,False
 0.8292682926829269,0.5127610208816705,normal_full,1,False,False,False,True,False
 0.8414634146341464,0.5243619489559165,normal_full,1,False,False,False,True,False
-0.7804878048780488,0.48491879350348027,normal_full,1,False,False,False,True,False
 0.7926829268292683,0.5266821345707657,normal_full,1,False,False,False,True,False
 0.7560975609756098,0.5150812064965198,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.531322505800464,normal_full,1,False,False,False,True,False
@@ -5556,6 +5566,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8658536585365855,0.5730858468677494,normal_full,1,False,False,False,True,False
 0.7560975609756098,0.54292343387471,normal_full,1,False,False,False,True,False
 0.8292682926829269,0.505800464037123,normal_full,1,False,False,False,True,False
+0.8414634146341464,0.47795823665893267,normal_full,1,False,False,False,True,False
 0.7926829268292683,0.5034802784222738,normal_full,1,False,False,False,True,False
 0.5975609756097562,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.5731707317073171,0.3805104408352668,normal_digging,0,False,True,False,False,False
@@ -5583,7 +5594,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.02439024390243902,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06728538283062645,normal_empty,2,False,False,True,False,False
-0.0,0.06728538283062645,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06264501160092807,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06496519721577726,normal_empty,2,False,False,True,False,False
 0.012195121951219523,0.06264501160092807,normal_empty,2,False,False,True,False,False
@@ -5649,7 +5659,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5853658536585367,0.38979118329466356,normal_digging,0,False,True,False,False,False
 0.6219512195121952,0.41067285382830626,normal_digging,0,False,True,False,False,False
 0.6463414634146342,0.42691415313225056,normal_digging,0,False,True,False,False,False
-0.6463414634146342,0.40835266821345706,normal_digging,0,False,True,False,False,False
 0.5975609756097562,0.41995359628770296,normal_digging,0,False,True,False,False,False
 0.5853658536585367,0.35266821345707655,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3805104408352668,normal_digging,0,False,True,False,False,False
@@ -5663,6 +5672,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.4878048780487806,0.3387470997679814,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.37122969837587005,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.3573085846867749,normal_digging,0,False,True,False,False,False
+0.5,0.3596287703016241,normal_digging,0,False,True,False,False,False
 0.5,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5121951219512195,0.3758700696055684,normal_digging,0,False,True,False,False,False
 0.5,0.3619489559164733,normal_digging,0,False,True,False,False,False
@@ -5763,7 +5773,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.5121951219512195,0.35498839907192575,normal_digging,0,False,True,False,False,False
 0.5,0.36890951276102085,normal_digging,0,False,True,False,False,False
 0.5,0.3805104408352668,normal_digging,0,False,True,False,False,False
-0.5121951219512195,0.3805104408352668,normal_digging,0,False,True,False,False,False
 0.5,0.38747099767981436,normal_digging,0,False,True,False,False,False
 0.5,0.35266821345707655,normal_digging,0,False,True,False,False,False
 0.5487804878048781,0.3410672853828306,normal_digging,0,False,True,False,False,False
@@ -5786,6 +5795,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8902439024390245,0.54292343387471,normal_full,1,False,False,False,True,False
 0.8414634146341464,0.5406032482598608,normal_full,1,False,False,False,True,False
 0.9268292682926831,0.5382830626450116,normal_full,1,False,False,False,True,False
+0.878048780487805,0.5359628770301624,normal_full,1,False,False,False,True,False
 0.902439024390244,0.5406032482598608,normal_full,1,False,False,False,True,False
 0.8658536585365855,0.5150812064965198,normal_full,1,False,False,False,True,False
 0.8170731707317074,0.5545243619489559,normal_full,1,False,False,False,True,False
@@ -5798,6 +5808,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.5638051044083527,normal_full,1,False,False,False,True,False
 0.9146341463414636,0.4918793503480278,normal_full,1,False,False,False,True,False
 0.8658536585365855,0.5823665893271461,normal_full,1,False,False,False,True,False
+0.853658536585366,0.5916473317865429,normal_full,1,False,False,False,True,False
 0.9268292682926831,0.54292343387471,normal_full,1,False,False,False,True,False
 0.853658536585366,0.531322505800464,normal_full,1,False,False,False,True,False
 0.853658536585366,0.5266821345707657,normal_full,1,False,False,False,True,False
@@ -6075,6 +6086,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9634146341463414,0.8004640371229699,overload,3,False,False,False,False,True
 0.9146341463414636,0.7587006960556845,overload,3,False,False,False,False,True
 0.9512195121951221,0.8259860788863109,overload,3,False,False,False,False,True
+0.9512195121951221,0.8607888631090488,overload,3,False,False,False,False,True
 0.975609756097561,0.802784222737819,overload,3,False,False,False,False,True
 0.9146341463414636,0.7331786542923434,overload,3,False,False,False,False,True
 0.9268292682926831,0.814385150812065,overload,3,False,False,False,False,True
@@ -6125,10 +6137,8 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8658536585365855,0.7378190255220418,overload,3,False,False,False,False,True
 0.9390243902439026,0.7122969837587008,overload,3,False,False,False,False,True
 0.902439024390244,0.679814385150812,overload,3,False,False,False,False,True
-0.9512195121951221,0.6983758700696056,overload,3,False,False,False,False,True
 0.9268292682926831,0.7169373549883991,overload,3,False,False,False,False,True
 0.9634146341463414,0.7795823665893271,overload,3,False,False,False,False,True
-0.9146341463414636,0.7911832946635731,overload,3,False,False,False,False,True
 0.9634146341463414,0.7795823665893271,overload,3,False,False,False,False,True
 0.9146341463414636,0.7238979118329466,overload,3,False,False,False,False,True
 0.902439024390244,0.8190255220417634,overload,3,False,False,False,False,True
@@ -6136,7 +6146,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.7888631090487239,overload,3,False,False,False,False,True
 0.9268292682926831,0.7749419953596288,overload,3,False,False,False,False,True
 0.9634146341463414,0.8468677494199536,overload,3,False,False,False,False,True
-0.8902439024390245,0.7981438515081206,overload,3,False,False,False,False,True
 0.9146341463414636,0.7749419953596288,overload,3,False,False,False,False,True
 0.9390243902439026,0.777262180974478,overload,3,False,False,False,False,True
 0.9390243902439026,0.8120649651972158,overload,3,False,False,False,False,True
@@ -6151,7 +6160,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9512195121951221,0.7726218097447796,overload,3,False,False,False,False,True
 0.8902439024390245,0.7842227378190255,overload,3,False,False,False,False,True
 0.902439024390244,0.8723897911832946,overload,3,False,False,False,False,True
-0.9146341463414636,0.7795823665893271,overload,3,False,False,False,False,True
 0.9390243902439026,0.7749419953596288,overload,3,False,False,False,False,True
 0.9268292682926831,0.802784222737819,overload,3,False,False,False,False,True
 0.9634146341463414,0.8167053364269141,overload,3,False,False,False,False,True
@@ -6170,7 +6178,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7633410672853829,overload,3,False,False,False,False,True
 0.9512195121951221,0.814385150812065,overload,3,False,False,False,False,True
 0.9268292682926831,0.740139211136891,overload,3,False,False,False,False,True
-0.9390243902439026,0.7447795823665894,overload,3,False,False,False,False,True
 0.9146341463414636,0.7470997679814385,overload,3,False,False,False,False,True
 0.9268292682926831,0.8306264501160093,overload,3,False,False,False,False,True
 0.9268292682926831,0.7679814385150812,overload,3,False,False,False,False,True
@@ -6216,7 +6223,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9634146341463414,0.7958236658932715,overload,3,False,False,False,False,True
 0.8902439024390245,0.8051044083526682,overload,3,False,False,False,False,True
 0.902439024390244,0.839907192575406,overload,3,False,False,False,False,True
-0.9146341463414636,0.9025522041763341,overload,3,False,False,False,False,True
 0.9634146341463414,0.7540603248259861,overload,3,False,False,False,False,True
 0.9390243902439026,0.814385150812065,overload,3,False,False,False,False,True
 0.9512195121951221,0.802784222737819,overload,3,False,False,False,False,True
@@ -6382,6 +6388,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.902439024390244,0.8004640371229699,overload,3,False,False,False,False,True
 0.9268292682926831,0.6844547563805105,overload,3,False,False,False,False,True
 0.9390243902439026,0.7842227378190255,overload,3,False,False,False,False,True
+0.9634146341463414,0.8004640371229699,overload,3,False,False,False,False,True
 0.902439024390244,0.6983758700696056,overload,3,False,False,False,False,True
 0.9146341463414636,0.7610208816705336,overload,3,False,False,False,False,True
 0.9512195121951221,0.7842227378190255,overload,3,False,False,False,False,True
@@ -6447,6 +6454,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.8700696055684455,overload,3,False,False,False,False,True
 0.9146341463414636,0.7842227378190255,overload,3,False,False,False,False,True
 0.9268292682926831,0.7424593967517401,overload,3,False,False,False,False,True
+0.9268292682926831,0.802784222737819,overload,3,False,False,False,False,True
 0.9390243902439026,0.8700696055684455,overload,3,False,False,False,False,True
 0.9390243902439026,0.8306264501160093,overload,3,False,False,False,False,True
 0.9390243902439026,0.851508120649652,overload,3,False,False,False,False,True
@@ -6455,6 +6463,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.802784222737819,overload,3,False,False,False,False,True
 0.9512195121951221,0.802784222737819,overload,3,False,False,False,False,True
 0.9390243902439026,0.7610208816705336,overload,3,False,False,False,False,True
+0.9390243902439026,0.8584686774941995,overload,3,False,False,False,False,True
 0.9512195121951221,0.8074245939675174,overload,3,False,False,False,False,True
 0.9512195121951221,0.7703016241299304,overload,3,False,False,False,False,True
 0.9268292682926831,0.7563805104408353,overload,3,False,False,False,False,True
@@ -6499,14 +6508,12 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9268292682926831,0.7703016241299304,overload,3,False,False,False,False,True
 0.9390243902439026,0.8097447795823666,overload,3,False,False,False,False,True
 0.9146341463414636,0.7540603248259861,overload,3,False,False,False,False,True
-0.9512195121951221,0.7169373549883991,overload,3,False,False,False,False,True
 0.9146341463414636,0.9048723897911833,overload,3,False,False,False,False,True
 0.9146341463414636,0.8306264501160093,overload,3,False,False,False,False,True
 0.9146341463414636,0.8051044083526682,overload,3,False,False,False,False,True
 0.9512195121951221,0.8306264501160093,overload,3,False,False,False,False,True
 0.9268292682926831,0.8631090487238979,overload,3,False,False,False,False,True
 0.9146341463414636,0.7935034802784223,overload,3,False,False,False,False,True
-0.9390243902439026,0.740139211136891,overload,3,False,False,False,False,True
 0.9268292682926831,0.7911832946635731,overload,3,False,False,False,False,True
 0.9268292682926831,0.8816705336426914,overload,3,False,False,False,False,True
 0.9146341463414636,0.8329466357308585,overload,3,False,False,False,False,True
@@ -6565,7 +6572,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9634146341463414,0.8283062645011601,overload,3,False,False,False,False,True
 0.9512195121951221,0.8283062645011601,overload,3,False,False,False,False,True
 0.902439024390244,0.7262180974477959,overload,3,False,False,False,False,True
-0.9390243902439026,0.7888631090487239,overload,3,False,False,False,False,True
 0.9146341463414636,0.8190255220417634,overload,3,False,False,False,False,True
 0.8902439024390245,0.7633410672853829,overload,3,False,False,False,False,True
 0.9268292682926831,0.7215777262180975,overload,3,False,False,False,False,True
@@ -6786,6 +6792,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9268292682926831,0.7122969837587008,overload,3,False,False,False,False,True
 0.9268292682926831,0.7470997679814385,overload,3,False,False,False,False,True
 0.9146341463414636,0.7354988399071926,overload,3,False,False,False,False,True
+0.902439024390244,0.7215777262180975,overload,3,False,False,False,False,True
 0.853658536585366,0.7494199535962878,overload,3,False,False,False,False,True
 0.9634146341463414,0.7470997679814385,overload,3,False,False,False,False,True
 0.902439024390244,0.7308584686774942,overload,3,False,False,False,False,True
@@ -6793,7 +6800,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.7076566125290024,overload,3,False,False,False,False,True
 0.9634146341463414,0.6890951276102089,overload,3,False,False,False,False,True
 0.9390243902439026,0.7146171693735499,overload,3,False,False,False,False,True
-0.9634146341463414,0.7169373549883991,overload,3,False,False,False,False,True
 0.9146341463414636,0.6960556844547564,overload,3,False,False,False,False,True
 0.9390243902439026,0.740139211136891,overload,3,False,False,False,False,True
 0.9146341463414636,0.7146171693735499,overload,3,False,False,False,False,True
@@ -6824,9 +6830,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7540603248259861,overload,3,False,False,False,False,True
 0.9390243902439026,0.7911832946635731,overload,3,False,False,False,False,True
 0.9390243902439026,0.851508120649652,overload,3,False,False,False,False,True
-0.9268292682926831,0.814385150812065,overload,3,False,False,False,False,True
 0.975609756097561,0.8375870069605569,overload,3,False,False,False,False,True
-0.9634146341463414,0.7726218097447796,overload,3,False,False,False,False,True
 0.9390243902439026,0.7331786542923434,overload,3,False,False,False,False,True
 0.9390243902439026,0.7958236658932715,overload,3,False,False,False,False,True
 0.9390243902439026,0.8259860788863109,overload,3,False,False,False,False,True
@@ -6854,6 +6858,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.878048780487805,0.7865429234338748,overload,3,False,False,False,False,True
 0.9390243902439026,0.765661252900232,overload,3,False,False,False,False,True
 0.902439024390244,0.7517401392111369,overload,3,False,False,False,False,True
+0.9512195121951221,0.8631090487238979,overload,3,False,False,False,False,True
 0.9634146341463414,0.7331786542923434,overload,3,False,False,False,False,True
 0.9512195121951221,0.7587006960556845,overload,3,False,False,False,False,True
 0.9146341463414636,0.7679814385150812,overload,3,False,False,False,False,True
@@ -7271,6 +7276,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.6751740139211138,overload,3,False,False,False,False,True
 0.9268292682926831,0.7749419953596288,overload,3,False,False,False,False,True
 0.9268292682926831,0.8051044083526682,overload,3,False,False,False,False,True
+0.9512195121951221,0.8236658932714618,overload,3,False,False,False,False,True
 0.9390243902439026,0.7146171693735499,overload,3,False,False,False,False,True
 0.9268292682926831,0.877030162412993,overload,3,False,False,False,False,True
 0.9390243902439026,0.8004640371229699,overload,3,False,False,False,False,True
@@ -7352,7 +7358,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9268292682926831,0.765661252900232,overload,3,False,False,False,False,True
 0.9390243902439026,0.8236658932714618,overload,3,False,False,False,False,True
 0.9512195121951221,0.8004640371229699,overload,3,False,False,False,False,True
-0.9512195121951221,0.8352668213457076,overload,3,False,False,False,False,True
 0.9268292682926831,0.7424593967517401,overload,3,False,False,False,False,True
 0.9634146341463414,0.7633410672853829,overload,3,False,False,False,False,True
 0.9146341463414636,0.7146171693735499,overload,3,False,False,False,False,True
@@ -7489,6 +7494,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.902439024390244,0.814385150812065,overload,3,False,False,False,False,True
 0.902439024390244,0.7865429234338748,overload,3,False,False,False,False,True
 0.9268292682926831,0.8213457076566125,overload,3,False,False,False,False,True
+0.902439024390244,0.8004640371229699,overload,3,False,False,False,False,True
 0.9146341463414636,0.765661252900232,overload,3,False,False,False,False,True
 0.853658536585366,0.8677494199535963,overload,3,False,False,False,False,True
 0.853658536585366,0.8468677494199536,overload,3,False,False,False,False,True
@@ -7524,6 +7530,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7819025522041764,overload,3,False,False,False,False,True
 0.9512195121951221,0.7842227378190255,overload,3,False,False,False,False,True
 0.9268292682926831,0.7819025522041764,overload,3,False,False,False,False,True
+0.9390243902439026,0.7726218097447796,overload,3,False,False,False,False,True
 0.9268292682926831,0.7703016241299304,overload,3,False,False,False,False,True
 0.9512195121951221,0.7935034802784223,overload,3,False,False,False,False,True
 0.9878048780487805,0.7911832946635731,overload,3,False,False,False,False,True
@@ -7536,7 +7543,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7981438515081206,overload,3,False,False,False,False,True
 0.9390243902439026,0.7958236658932715,overload,3,False,False,False,False,True
 0.9146341463414636,0.7749419953596288,overload,3,False,False,False,False,True
-0.9512195121951221,0.8283062645011601,overload,3,False,False,False,False,True
 0.902439024390244,0.7238979118329466,overload,3,False,False,False,False,True
 0.9146341463414636,0.8259860788863109,overload,3,False,False,False,False,True
 0.9634146341463414,0.7494199535962878,overload,3,False,False,False,False,True
@@ -7564,7 +7570,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.8167053364269141,overload,3,False,False,False,False,True
 0.8658536585365855,0.7679814385150812,overload,3,False,False,False,False,True
 0.9268292682926831,0.777262180974478,overload,3,False,False,False,False,True
-0.9634146341463414,0.740139211136891,overload,3,False,False,False,False,True
 0.9146341463414636,0.7099767981438515,overload,3,False,False,False,False,True
 0.9634146341463414,0.7749419953596288,overload,3,False,False,False,False,True
 0.9268292682926831,0.7842227378190255,overload,3,False,False,False,False,True
@@ -7802,6 +7807,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9268292682926831,0.7540603248259861,overload,3,False,False,False,False,True
 0.9512195121951221,0.7749419953596288,overload,3,False,False,False,False,True
 0.902439024390244,0.8074245939675174,overload,3,False,False,False,False,True
+0.902439024390244,0.740139211136891,overload,3,False,False,False,False,True
 0.9634146341463414,0.7378190255220418,overload,3,False,False,False,False,True
 0.878048780487805,0.8097447795823666,overload,3,False,False,False,False,True
 0.9268292682926831,0.777262180974478,overload,3,False,False,False,False,True
@@ -7902,7 +7908,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.8190255220417634,overload,3,False,False,False,False,True
 0.9146341463414636,0.7378190255220418,overload,3,False,False,False,False,True
 0.9390243902439026,0.777262180974478,overload,3,False,False,False,False,True
-0.902439024390244,0.8097447795823666,overload,3,False,False,False,False,True
 0.9390243902439026,0.7703016241299304,overload,3,False,False,False,False,True
 0.9268292682926831,0.802784222737819,overload,3,False,False,False,False,True
 0.9634146341463414,0.7749419953596288,overload,3,False,False,False,False,True
@@ -7997,7 +8002,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7447795823665894,overload,3,False,False,False,False,True
 0.902439024390244,0.8538283062645011,overload,3,False,False,False,False,True
 0.9512195121951221,0.7749419953596288,overload,3,False,False,False,False,True
-0.9268292682926831,0.8051044083526682,overload,3,False,False,False,False,True
 0.9512195121951221,0.7563805104408353,overload,3,False,False,False,False,True
 0.9390243902439026,0.765661252900232,overload,3,False,False,False,False,True
 0.9268292682926831,0.7911832946635731,overload,3,False,False,False,False,True
@@ -8097,7 +8101,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.777262180974478,overload,3,False,False,False,False,True
 0.975609756097561,0.777262180974478,overload,3,False,False,False,False,True
 0.902439024390244,0.7587006960556845,overload,3,False,False,False,False,True
-0.9146341463414636,0.8004640371229699,overload,3,False,False,False,False,True
 0.9146341463414636,0.7958236658932715,overload,3,False,False,False,False,True
 0.9146341463414636,0.7006960556844548,overload,3,False,False,False,False,True
 0.9146341463414636,0.703016241299304,overload,3,False,False,False,False,True
@@ -8125,6 +8128,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.8445475638051044,overload,3,False,False,False,False,True
 0.9146341463414636,0.8097447795823666,overload,3,False,False,False,False,True
 0.902439024390244,0.7935034802784223,overload,3,False,False,False,False,True
+0.9512195121951221,0.728538283062645,overload,3,False,False,False,False,True
 0.9268292682926831,0.814385150812065,overload,3,False,False,False,False,True
 0.8658536585365855,0.8375870069605569,overload,3,False,False,False,False,True
 0.9390243902439026,0.814385150812065,overload,3,False,False,False,False,True
@@ -8189,7 +8193,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9512195121951221,0.765661252900232,overload,3,False,False,False,False,True
 0.9146341463414636,0.7610208816705336,overload,3,False,False,False,False,True
 0.902439024390244,0.7865429234338748,overload,3,False,False,False,False,True
-0.9146341463414636,0.8167053364269141,overload,3,False,False,False,False,True
 0.9512195121951221,0.851508120649652,overload,3,False,False,False,False,True
 0.9390243902439026,0.8051044083526682,overload,3,False,False,False,False,True
 0.9634146341463414,0.7610208816705336,overload,3,False,False,False,False,True
@@ -8259,6 +8262,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.975609756097561,0.7169373549883991,overload,3,False,False,False,False,True
 0.9512195121951221,0.8097447795823666,overload,3,False,False,False,False,True
 0.9268292682926831,0.814385150812065,overload,3,False,False,False,False,True
+0.9512195121951221,0.7888631090487239,overload,3,False,False,False,False,True
 0.9390243902439026,0.8236658932714618,overload,3,False,False,False,False,True
 0.902439024390244,0.7888631090487239,overload,3,False,False,False,False,True
 0.9390243902439026,0.7610208816705336,overload,3,False,False,False,False,True
@@ -8280,6 +8284,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.902439024390244,0.7842227378190255,overload,3,False,False,False,False,True
 0.9634146341463414,0.8538283062645011,overload,3,False,False,False,False,True
 0.9268292682926831,0.7865429234338748,overload,3,False,False,False,False,True
+0.9878048780487805,0.8306264501160093,overload,3,False,False,False,False,True
 0.9146341463414636,0.7610208816705336,overload,3,False,False,False,False,True
 0.9512195121951221,0.7447795823665894,overload,3,False,False,False,False,True
 0.9634146341463414,0.7981438515081206,overload,3,False,False,False,False,True
@@ -8292,7 +8297,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.7169373549883991,overload,3,False,False,False,False,True
 0.8902439024390245,0.728538283062645,overload,3,False,False,False,False,True
 0.9634146341463414,0.7865429234338748,overload,3,False,False,False,False,True
-0.9390243902439026,0.8074245939675174,overload,3,False,False,False,False,True
 0.9390243902439026,0.7819025522041764,overload,3,False,False,False,False,True
 0.9512195121951221,0.7911832946635731,overload,3,False,False,False,False,True
 0.9634146341463414,0.8097447795823666,overload,3,False,False,False,False,True
@@ -8315,7 +8319,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9146341463414636,0.8445475638051044,overload,3,False,False,False,False,True
 0.8902439024390245,0.8120649651972158,overload,3,False,False,False,False,True
 0.902439024390244,0.7470997679814385,overload,3,False,False,False,False,True
-0.8902439024390245,0.7633410672853829,overload,3,False,False,False,False,True
 0.9634146341463414,0.7958236658932715,overload,3,False,False,False,False,True
 0.902439024390244,0.8259860788863109,overload,3,False,False,False,False,True
 0.9634146341463414,0.7888631090487239,overload,3,False,False,False,False,True
@@ -8425,7 +8428,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7610208816705336,overload,3,False,False,False,False,True
 0.902439024390244,0.8097447795823666,overload,3,False,False,False,False,True
 0.9268292682926831,0.7911832946635731,overload,3,False,False,False,False,True
-0.9268292682926831,0.7842227378190255,overload,3,False,False,False,False,True
 0.9268292682926831,0.7470997679814385,overload,3,False,False,False,False,True
 0.9390243902439026,0.7610208816705336,overload,3,False,False,False,False,True
 0.9390243902439026,0.8004640371229699,overload,3,False,False,False,False,True
@@ -8641,11 +8643,9 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.878048780487805,0.7215777262180975,overload,3,False,False,False,False,True
 0.9146341463414636,0.7053364269141531,overload,3,False,False,False,False,True
 0.8902439024390245,0.6844547563805105,overload,3,False,False,False,False,True
-0.9390243902439026,0.7517401392111369,overload,3,False,False,False,False,True
 0.8902439024390245,0.777262180974478,overload,3,False,False,False,False,True
 0.9390243902439026,0.7610208816705336,overload,3,False,False,False,False,True
 0.9512195121951221,0.7517401392111369,overload,3,False,False,False,False,True
-0.9390243902439026,0.765661252900232,overload,3,False,False,False,False,True
 0.9634146341463414,0.7587006960556845,overload,3,False,False,False,False,True
 0.9268292682926831,0.8236658932714618,overload,3,False,False,False,False,True
 0.9146341463414636,0.7888631090487239,overload,3,False,False,False,False,True
@@ -8698,7 +8698,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.7935034802784223,overload,3,False,False,False,False,True
 0.9268292682926831,0.8631090487238979,overload,3,False,False,False,False,True
 0.9146341463414636,0.7935034802784223,overload,3,False,False,False,False,True
-0.9390243902439026,0.8259860788863109,overload,3,False,False,False,False,True
 0.9634146341463414,0.7842227378190255,overload,3,False,False,False,False,True
 0.9390243902439026,0.7981438515081206,overload,3,False,False,False,False,True
 0.878048780487805,0.7215777262180975,overload,3,False,False,False,False,True
@@ -8735,6 +8734,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.8259860788863109,overload,3,False,False,False,False,True
 0.9146341463414636,0.8236658932714618,overload,3,False,False,False,False,True
 0.9268292682926831,0.7262180974477959,overload,3,False,False,False,False,True
+0.9146341463414636,0.8074245939675174,overload,3,False,False,False,False,True
 0.9146341463414636,0.8491879350348028,overload,3,False,False,False,False,True
 0.9634146341463414,0.8375870069605569,overload,3,False,False,False,False,True
 0.9390243902439026,0.7958236658932715,overload,3,False,False,False,False,True
@@ -8772,7 +8772,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.9390243902439026,0.8375870069605569,overload,3,False,False,False,False,True
 0.9390243902439026,0.8097447795823666,overload,3,False,False,False,False,True
 0.975609756097561,0.7981438515081206,overload,3,False,False,False,False,True
-0.9268292682926831,0.7540603248259861,overload,3,False,False,False,False,True
 0.975609756097561,0.8051044083526682,overload,3,False,False,False,False,True
 0.9146341463414636,0.740139211136891,overload,3,False,False,False,False,True
 0.9634146341463414,0.7447795823665894,overload,3,False,False,False,False,True
@@ -8853,6 +8852,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.853658536585366,0.740139211136891,overload,3,False,False,False,False,True
 0.9390243902439026,0.7517401392111369,overload,3,False,False,False,False,True
 0.902439024390244,0.7122969837587008,overload,3,False,False,False,False,True
+0.902439024390244,0.6983758700696056,overload,3,False,False,False,False,True
 0.9146341463414636,0.7494199535962878,overload,3,False,False,False,False,True
 0.9390243902439026,0.7911832946635731,overload,3,False,False,False,False,True
 0.9390243902439026,0.7935034802784223,overload,3,False,False,False,False,True
@@ -8863,7 +8863,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.975609756097561,0.7935034802784223,overload,3,False,False,False,False,True
 0.9390243902439026,0.8190255220417634,overload,3,False,False,False,False,True
 0.8902439024390245,0.7865429234338748,overload,3,False,False,False,False,True
-0.9512195121951221,0.7610208816705336,overload,3,False,False,False,False,True
 0.902439024390244,0.777262180974478,overload,3,False,False,False,False,True
 0.9268292682926831,0.7494199535962878,overload,3,False,False,False,False,True
 0.975609756097561,0.765661252900232,overload,3,False,False,False,False,True
@@ -9066,7 +9065,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.30487804878048785,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.016241299303944315,hose_break,4,True,False,False,False,False
-0.8292682926829269,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.6829268292682927,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.027842227378190254,hose_break,4,True,False,False,False,False
@@ -9123,8 +9121,8 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.25609756097560976,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7804878048780488,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.8292682926829269,0.03480278422273782,hose_break,4,True,False,False,False,False
+0.7926829268292683,0.030162412993039442,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.02088167053364269,hose_break,4,True,False,False,False,False
-0.853658536585366,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.9146341463414636,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.7804878048780488,0.018561484918793503,hose_break,4,True,False,False,False,False
@@ -9185,6 +9183,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7926829268292683,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.29268292682926833,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.853658536585366,0.02320185614849188,hose_break,4,True,False,False,False,False
+0.8170731707317074,0.5638051044083527,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.37354988399071926,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.18561484918793503,hose_break,4,True,False,False,False,False
 0.878048780487805,0.016241299303944315,hose_break,4,True,False,False,False,False
@@ -9299,7 +9298,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7926829268292683,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.7073170731707318,0.01160092807424594,hose_break,4,True,False,False,False,False
 0.8414634146341464,0.01160092807424594,hose_break,4,True,False,False,False,False
-0.7926829268292683,0.03248259860788863,hose_break,4,True,False,False,False,False
 0.8048780487804879,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7560975609756098,0.03480278422273782,hose_break,4,True,False,False,False,False
 0.24390243902439027,0.018561484918793503,hose_break,4,True,False,False,False,False
@@ -9309,11 +9307,11 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8414634146341464,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.7439024390243903,0.009280742459396751,hose_break,4,True,False,False,False,False
+0.8292682926829269,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.853658536585366,0.002320185614849188,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.01160092807424594,hose_break,4,True,False,False,False,False
 0.2682926829268293,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.8414634146341464,0.018561484918793503,hose_break,4,True,False,False,False,False
-0.7073170731707318,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.7439024390243903,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.009280742459396751,hose_break,4,True,False,False,False,False
@@ -9367,6 +9365,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7926829268292683,0.01160092807424594,hose_break,4,True,False,False,False,False
 0.7317073170731708,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.2682926829268293,0.01160092807424594,hose_break,4,True,False,False,False,False
+0.24390243902439027,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.8048780487804879,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.02088167053364269,hose_break,4,True,False,False,False,False
@@ -9398,6 +9397,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.878048780487805,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.01160092807424594,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.016241299303944315,hose_break,4,True,False,False,False,False
+0.8292682926829269,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.2682926829268293,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7195121951219513,0.002320185614849188,hose_break,4,True,False,False,False,False
@@ -9451,7 +9451,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8902439024390245,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.29268292682926833,0.030162412993039442,hose_break,4,True,False,False,False,False
-0.7804878048780488,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.030162412993039442,hose_break,4,True,False,False,False,False
 0.7804878048780488,0.03248259860788863,hose_break,4,True,False,False,False,False
 0.2804878048780488,0.03248259860788863,hose_break,4,True,False,False,False,False
@@ -9551,6 +9550,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.8170731707317074,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.8414634146341464,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.902439024390244,0.02088167053364269,hose_break,4,True,False,False,False,False
+0.7560975609756098,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.25609756097560976,0.03944315545243619,hose_break,4,True,False,False,False,False
 0.8658536585365855,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.8048780487804879,0.025522041763341066,hose_break,4,True,False,False,False,False
@@ -9606,7 +9606,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.878048780487805,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.7926829268292683,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.7195121951219513,0.018561484918793503,hose_break,4,True,False,False,False,False
-0.6829268292682927,0.016241299303944315,hose_break,4,True,False,False,False,False
+0.853658536585366,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7804878048780488,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.7560975609756098,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.9634146341463414,0.03248259860788863,hose_break,4,True,False,False,False,False
@@ -9644,7 +9644,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7439024390243903,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.7317073170731708,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.6829268292682927,0.016241299303944315,hose_break,4,True,False,False,False,False
-0.24390243902439027,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.7195121951219513,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.7439024390243903,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.7804878048780488,0.018561484918793503,hose_break,4,True,False,False,False,False
@@ -9704,6 +9703,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7682926829268293,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.7317073170731708,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.2682926829268293,0.013921113689095127,hose_break,4,True,False,False,False,False
+0.6097560975609757,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.7195121951219513,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.8170731707317074,0.03480278422273782,hose_break,4,True,False,False,False,False
 0.8658536585365855,0.016241299303944315,hose_break,4,True,False,False,False,False
@@ -9749,7 +9749,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7804878048780488,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.25609756097560976,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.878048780487805,0.009280742459396751,hose_break,4,True,False,False,False,False
-0.8658536585365855,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.30487804878048785,0.02320185614849188,hose_break,4,True,False,False,False,False
 0.25609756097560976,0.027842227378190254,hose_break,4,True,False,False,False,False
 0.8414634146341464,0.03480278422273782,hose_break,4,True,False,False,False,False
@@ -9767,6 +9766,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.853658536585366,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.8658536585365855,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.25609756097560976,0.025522041763341066,hose_break,4,True,False,False,False,False
+0.24390243902439027,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.8414634146341464,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.9146341463414636,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.2804878048780488,0.018561484918793503,hose_break,4,True,False,False,False,False
@@ -9806,6 +9806,7 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.878048780487805,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.25609756097560976,0.004640371229698376,hose_break,4,True,False,False,False,False
 0.8658536585365855,0.016241299303944315,hose_break,4,True,False,False,False,False
+0.8292682926829269,0.02088167053364269,hose_break,4,True,False,False,False,False
 0.8902439024390245,0.018561484918793503,hose_break,4,True,False,False,False,False
 0.8048780487804879,0.030162412993039442,hose_break,4,True,False,False,False,False
 0.24390243902439027,0.025522041763341066,hose_break,4,True,False,False,False,False
@@ -9897,7 +9898,6 @@ pumpControl,pressure,state,state_numeric,state_hose_break,state_normal_digging,s
 0.7682926829268293,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.7682926829268293,0.013921113689095127,hose_break,4,True,False,False,False,False
 0.2804878048780488,0.009280742459396751,hose_break,4,True,False,False,False,False
-0.7073170731707318,0.016241299303944315,hose_break,4,True,False,False,False,False
 0.7317073170731708,0.009280742459396751,hose_break,4,True,False,False,False,False
 0.2804878048780488,0.025522041763341066,hose_break,4,True,False,False,False,False
 0.853658536585366,0.027842227378190254,hose_break,4,True,False,False,False,False

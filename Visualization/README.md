@@ -33,12 +33,26 @@ Tämä hakemisto sisältää datan analysoinnin ja prosessoinnin visualisointeja
   - B) Bar plot: Luokkajakaumat eri seteissä
   - C) Box plot: Feature-jakaumat eri seteissä
 
+### 4. Mallien suorituskyky
+- `learningCurves.png`: Mallien oppimiskäyrät
+  - SVM, Random Forest ja XGBoost -mallien oppimiskäyrät
+  - Koulutusdatan koon vaikutus mallien tarkkuuteen
+  - Ylisovittamisen ja alisovittamisen tunnistaminen
+- `hyperparameterEffects.png`: Hyperparametrien vaikutukset
+  - SVM: C-parametrin vaikutus tarkkuuteen
+  - Random Forest: n_estimators-parametrin vaikutus tarkkuuteen
+  - XGBoost: max_depth-parametrin vaikutus tarkkuuteen
+- `model_comparisons.png`: Mallien vertailu
+  - Sekaannusmatriisit kaikille malleille
+  - Mallien tarkkuuksien vertailu pylväsdiagrammina
+
 ## Käyttö
 
 ### Visualisointien luonti
 - Generoidun datan visualisoinnit: `GenerateData.ipynb`
 - Puhdistuksen visualisoinnit: `CorruptedVisualizeData.ipynb` ja `CheckCleanData.ipynb`
 - Skaalauksen ja jaon visualisoinnit: `SplitVisualizeData.ipynb`
+- Mallien suorituskyvyn visualisoinnit: `modelTraining.ipynb`
 
 ### Visualisointien tarkastelu
 - Kaikki visualisoinnit ovat PNG-muodossa
