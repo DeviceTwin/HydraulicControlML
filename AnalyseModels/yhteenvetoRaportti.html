@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrauliikkajärjestelmän tilojen tunnistus - Mallien analyysi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            outline: none;
+        }
+        .tab-button.active {
+            border-bottom: 3px solid #2c3e50;
+            color: #2c3e50;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px 0;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .conclusion {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #2c3e50;
+            margin: 20px 0;
+        }
+        .model-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        .model-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .visualization-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .visualization-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hydrauliikkajärjestelmän tilojen tunnistus - Mallien analyysi</h1>
+        
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'yhteenveto')">Yhteenveto</button>
+            <button class="tab-button" onclick="openTab(event, 'visualisoinnit')">Visualisoinnit</button>
+        </div>
+        
+        <div id="yhteenveto" class="tab-content active">
+            <h2>Yhteenveto</h2>
+            <p>Tässä raportissa analysoidaan kolmen koneoppimismallin suorituskykyä hydrauliikkajärjestelmän tilojen tunnistuksessa.
+            Mallit ovat Support Vector Machine (SVM), Random Forest ja XGBoost.</p>
+            
+            <h2>Mallien suorituskyky</h2>
+            <table>
+                <tr>
+                    <th>Malli</th>
+                    <th>Tarkkuus</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                </tr>
+
+                <tr>
+                    <td>SVM</td>
+                    <td>0.9906</td>
+                    <td>0.9872</td>
+                    <td>0.9896</td>
+                    <td>0.9883</td>
+                </tr>
+                <tr>
+                    <td>Random Forest</td>
+                    <td>0.9913</td>
+                    <td>0.9876</td>
+                    <td>0.9908</td>
+                    <td>0.9890</td>
+                </tr>
+                <tr>
+                    <td>XGBoost</td>
+                    <td>0.9906</td>
+                    <td>0.9878</td>
+                    <td>0.9889</td>
+                    <td>0.9883</td>
+                </tr>
+            </table>
+            
+            <h2>Johtopäätökset</h2>
+            <div class="conclusion">
+                <p>Analyysin perusteella voidaan todeta, että kaikki kolme mallia suoriutuvat hyvin hydrauliikkajärjestelmän tilojen tunnistuksessa. 
+                Mallien välillä on kuitenkin pieniä eroja suorituskyvyssä ja ominaisuuksissa.</p>
+            </div>
+            
+            <h3>Mallien käyttökelpoisuus tuotannossa</h3>
+            <div class="model-card">
+                <h3>SVM</h3>
+                <ul>
+                    <li>Erinomainen tarkkuus (99.06%)</li>
+                    <li>Yksinkertaisin malli, mikä voi olla etu resurssirajoitteisissa ympäristöissä</li>
+                    <li>Rajoitteena todennäköisyysennusteiden puuttuminen</li>
+                </ul>
+            </div>
+            
+            <div class="model-card">
+                <h3>Random Forest</h3>
+                <ul>
+                    <li>Paras kokonaistarkkuus (99.13%)</li>
+                    <li>Tukee todennäköisyysennusteita</li>
+                    <li>Hyvä tasapaino tarkkuuden ja monimutkaisuuden välillä</li>
+                </ul>
+            </div>
+            
+            <div class="model-card">
+                <h3>XGBoost</h3>
+                <ul>
+                    <li>Erinomainen tarkkuus (99.06%)</li>
+                    <li>Tukee todennäköisyysennusteita</li>
+                    <li>Hieman monimutkaisempi kuin muut mallit</li>
+                </ul>
+            </div>
+            
+            <p>Mallien välillä ei ole merkittäviä eroja suorituskyvyssä, joten valinta voi perustua muihin tekijöihin:</p>
+            <ul>
+                <li>Jos tarvitset todennäköisyysennusteita, valitse Random Forest tai XGBoost</li>
+                <li>Jos haluat yksinkertaisimman mallin, valitse SVM</li>
+                <li>Jos haluat parhaan kokonaistarkkuuden, valitse Random Forest</li>
+            </ul>
+            
+            <p>Kaikki mallit ovat valmiita tuotantokäyttöön, eikä niissä ole havaittavissa merkittäviä virheitä tai ylikoulutusta.</p>
+        </div>
+        
+        <div id="visualisoinnit" class="tab-content">
+            <h2>Visualisoinnit</h2>
+            
+            <div class="visualization-container">
+                <div class="visualization-item">
+                    <h3>Päätösrajapinnat</h3>
+                    <p>Päätösrajapintakuvaajat näyttävät, miten mallit luokittelevat syöteavaruuden. Tämä auttaa ymmärtämään mallien päätöksentekoprosessia.</p>
+                    <img src="decisionBoundaries.png" alt="Päätösrajapinnat">
+                </div>
+                
+                <div class="visualization-item">
+                    <h3>Sekaannusmatriisit</h3>
+                    <p>Sekaannusmatriisit näyttävät, miten mallit ennustavat eri luokkia. Diagonaalilla olevat arvot ovat oikeita ennusteita, ja muut arvot ovat virheellisiä ennusteita.</p>
+                    <img src="confusionMatrices.png" alt="Sekaannusmatriisit">
+                </div>
+                
+                <div class="visualization-item">
+                    <h3>Piirteiden tärkeys</h3>
+                    <p>Piirteiden tärkeysvertailu näyttää, mitkä syötemuuttujat ovat tärkeimpiä mallien päätöksenteossa.</p>
+                    <img src="featureImportance.png" alt="Piirteiden tärkeys">
+                </div>
+                
+                <div class="visualization-item">
+                    <h3>ROC-käyrät</h3>
+                    <p>ROC-käyrät (Receiver Operating Characteristic) näyttävät mallien suorituskyvyn eri kynnysarvoilla. Käyrän alla oleva pinta-ala (AUC) kuvaa mallin erottelukykyä.</p>
+                    <img src="rocCurves.png" alt="ROC-käyrät">
+                </div>
+                
+                <div class="visualization-item">
+                    <h3>Precision-Recall -käyrät</h3>
+                    <p>Precision-Recall -käyrät näyttävät tarkkuuden ja saannin välisen suhteen eri kynnysarvoilla. Tämä on hyödyllistä erityisesti epätasapainoisissa luokittelutehtävissä.</p>
+                    <img src="precisionRecallCurves.png" alt="Precision-Recall -käyrät">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabContent, tabButtons;
+            
+            // Piilota kaikki välilehdet
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].className = tabContent[i].className.replace(" active", "");
+            }
+            
+            // Poista active-luokka kaikista välilehtipainikkeista
+            tabButtons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].className = tabButtons[i].className.replace(" active", "");
+            }
+            
+            // Näytä valittu välilehti ja merkitse painike aktiiviseksi
+            document.getElementById(tabName).className += " active";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

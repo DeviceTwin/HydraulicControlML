@@ -2,7 +2,7 @@
 
 Tämä kansio sisältää Jupyter Notebook -toteutuksen hydraulisen järjestelmän datan generointiin ja visualisointiin. Notebook on suunniteltu tuottamaan realistista dataa hydraulisen järjestelmän eri toimintatiloista koneoppimisen kehitystä varten.
 
-## Pääkomponentti: GenerateData.ipynb
+## Pääkomponentti: generateData.ipynb
 
 Jupyter Notebook sisältää kaikki tarvittavat toiminnallisuudet:
 
@@ -33,15 +33,15 @@ Notebook tuottaa seuraavat visualisoinnit:
 
 ## Kansiorakenne
 
-- `Data/`: Generoitu CSV-tiedosto (hydraulic_data.csv)
-- `Analysis/`: Visualisoinnit (hydraulic_analysis.png)
-- `GenerateData/`: Jupyter Notebook ja dokumentaatio
+- `data/`: Generoitu CSV-tiedosto (hydraulic_data.csv)
+- `analysis/`: Visualisoinnit (hydraulic_analysis.png)
+- `generateData/`: Jupyter Notebook ja dokumentaatio
 
 ## Käyttö
 
 1. Käynnistä Jupyter Notebook:
    ```bash
-   jupyter notebook GenerateData.ipynb
+   jupyter notebook generateData.ipynb
    ```
 
 2. Suorita solut järjestyksessä:
@@ -50,5 +50,5 @@ Notebook tuottaa seuraavat visualisoinnit:
    - Visualisointi ja analyysi
 
 3. Tulokset:
-   - CSV-tiedosto tallentuu `Data`-kansioon
-   - Visualisoinnit tallentuvat `Analysis`-kansioon
+   - CSV-tiedosto tallentuu `data`-kansioon
+   - Visualisoinnit tallentuvat `analysis`-kansioon

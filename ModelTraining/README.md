@@ -1,4 +1,4 @@
-# ModelTraining
+# modelTraining
 
 Tämä hakemisto sisältää koneoppimismallien koulutukseen ja arviointiin liittyvät Jupyter Notebookit ja dokumentaation.
 
@@ -18,12 +18,12 @@ Tämä hakemisto sisältää koneoppimismallien koulutukseen ja arviointiin liit
   * Random Forest: n_estimators-parametrin vaikutus
   * XGBoost: max_depth-parametrin vaikutus
 - Tallentaa:
-  * `../Models/svmModel.joblib`
-  * `../Models/rfModel.joblib`
-  * `../Models/xgbModel.joblib`
-  * `../Visualization/learningCurves.png`
-  * `../Visualization/hyperparameterEffects.png`
-  * `../Visualization/model_comparisons.png`
+  * `../models/svmModel.joblib`
+  * `../models/rfModel.joblib`
+  * `../models/xgbModel.joblib`
+  * `../visualization/learningCurves.png`
+  * `../visualization/hyperparameterEffects.png`
+  * `../visualization/model_comparisons.png`
 
 ## Visualisoinnit
 

@@ -1,8 +1,8 @@
 # Visualization
 
-Tämä hakemisto sisältää datan analysoinnin ja prosessoinnin visualisointeja.
+Tämä hakemisto sisältää kaikki projektin visualisoinnit ja raportit.
 
-## Visualisoinnit
+## Visualisointien tyypit
 
 ### 1. Datan generointi
 - `hydraulicAnalysis.png`: Generoidun datan visualisointi
@@ -46,15 +46,40 @@ Tämä hakemisto sisältää datan analysoinnin ja prosessoinnin visualisointeja
   - Sekaannusmatriisit kaikille malleille
   - Mallien tarkkuuksien vertailu pylväsdiagrammina
 
-## Käyttö
+### 5. Mallien analyysi
+- `decisionBoundaries.png`: Mallien päätösrajapinnat
+  - SVM, Random Forest ja XGBoost -mallien päätösrajapinnat
+  - Luokkarajat visualisoituna feature-avaruudessa
+- `confusionMatrices.png`: Mallien sekaannusmatriisit
+  - Normalisoidut sekaannusmatriisit kaikille malleille
+- `featureImportance.png`: Piirteiden tärkeys
+  - Random Forest ja XGBoost -mallien piirteiden tärkeydet
+- `rocCurves.png`: ROC-käyrät
+  - ROC-käyrät kaikille malleille ja luokille
+  - AUC-arvot
+- `precisionRecallCurves.png`: Precision-Recall -käyrät
+  - Precision-Recall -käyrät kaikille malleille ja luokille
+  - Average Precision -arvot
 
-### Visualisointien luonti
-- Generoidun datan visualisoinnit: `GenerateData.ipynb`
-- Puhdistuksen visualisoinnit: `CorruptedVisualizeData.ipynb` ja `CheckCleanData.ipynb`
-- Skaalauksen ja jaon visualisoinnit: `SplitVisualizeData.ipynb`
-- Mallien suorituskyvyn visualisoinnit: `modelTraining.ipynb`
+### 6. Hydrauliikkadatan tarkkuustestaus
+- `hydraulic_accuracy_*`: Aikaleimalla varustetut kansiot, jotka sisältävät:
+  - `confusion_matrix.png`: Sekaannusmatriisi hydrauliikkadatalla
+  - `class_distribution.png`: Luokkien jakauma hydrauliikkadatassa
+  - `feature_scatterplot.png`: Ominaisuuksien scatter plot
+  - `accuracy_report.txt`: Yksityiskohtainen tekstiraportti mallin tarkkuudesta
 
-### Visualisointien tarkastelu
-- Kaikki visualisoinnit ovat PNG-muodossa
-- Suositeltu katseluohjelma: mikä tahansa kuvankatselin
-- Visualisointien resoluutio: 1200x800 pikseliä
+## Visualisointien luonti
+
+Visualisoinnit luodaan automaattisesti seuraavien skriptien avulla:
+
+1. Datan generointi ja analysointi: `generateData/`-kansion skriptit
+2. Datan esikäsittely: `dataPreprocessing/`-kansion skriptit
+3. Piirteiden analysointi: `featureEngineering/`-kansion skriptit
+4. Mallien koulutus ja arviointi: `modelTraining/`-kansion skriptit
+5. Mallien analyysi: `analyseModels/`-kansion skriptit
+6. Hydrauliikkadatan tarkkuustestaus: `modelTraining/testHydraulicDataAccuracy.py`
+
+## Visualisointien tarkastelu
+- Kaikki visualisoinnit ovat PNG-muodossa (paitsi animaatiot, jotka ovat GIF-muodossa)
+- Tekstiraportit ovat TXT-muodossa
+- Suositeltu katseluohjelma: mikä tahansa kuvankatselin tai tekstieditori

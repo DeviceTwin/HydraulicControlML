@@ -1,10 +1,10 @@
-# DataPreprocessing
+# dataPreprocessing
 
 Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit ja dokumentaation.
 
 ## Jupyter Notebookit
 
-### 1. CorruptedVisualizeData.ipynb
+### 1. corruptedVisualizeData.ipynb
 - Datan korruptointi testaamista varten
   * Lisää puuttuvia arvoja (NaN) satunnaisiin kohtiin
   * Lisää poikkeavia havaintoja (outliers) pumpControl ja pressure -muuttujiin
@@ -13,11 +13,11 @@ Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit
   * Poikkeavien havaintojen jakaumat
   * Luokkajakauman säilyminen
 - Tallentaa:
-  * `../Data/corruptedHydraulicData.csv`
-  * `../Visualization/corruptedMissingValues.png`
-  * `../Visualization/corruptedOutliersValues.png`
+  * `../data/corruptedHydraulicData.csv`
+  * `../visualization/corruptedMissingValues.png`
+  * `../visualization/corruptedOutliersValues.png`
 
-### 2. CheckCleanData.ipynb
+### 2. checkCleanData.ipynb
 - Datan puhdistus ja tarkistus
   * Puuttuvien arvojen poisto
   * Poikkeavien havaintojen suodatus
@@ -26,10 +26,10 @@ Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit
   * Feature-jakaumien vertailu
   * Luokkajakauman muutokset
 - Tallentaa:
-  * `../Data/cleanHydraulicData.csv`
-  * `../Visualization/dataCleaningAnalysis.png`
+  * `../data/cleanHydraulicData.csv`
+  * `../visualization/dataCleaningAnalysis.png`
 
-### 3. SplitVisualizeData.ipynb
+### 3. splitVisualizeData.ipynb
 - Datan skaalaus ja jako
   * MinMaxScaler-mallin luonti ja sovitus
   * Datan jako training/validation/test setteihin (70/15/15)
@@ -38,13 +38,13 @@ Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit
   * Feature-jakaumien vertailu ennen ja jälkeen skaalauksen
   * Luokkajakauman validointi eri seteissä
 - Tallentaa:
-  * `../Data/scaledHydraulicData.csv`
-  * `../Data/trainingData.csv`
-  * `../Data/validationData.csv`
-  * `../Data/testData.csv`
-  * `../Models/hydraulicScaler.joblib`
-  * `../Visualization/featureDistributions.png`
-  * `../Visualization/dataSplitAnalysis.png`
+  * `../data/scaledHydraulicData.csv`
+  * `../data/trainingData.csv`
+  * `../data/validationData.csv`
+  * `../data/testData.csv`
+  * `../models/hydraulicScaler.joblib`
+  * `../visualization/featureDistributions.png`
+  * `../visualization/dataSplitAnalysis.png`
 
 ## Käyttö
 
@@ -55,12 +55,12 @@ Tämä hakemisto sisältää datan esikäsittelyyn liittyvät Jupyter Notebookit
 
 2. Suorita notebookit järjestyksessä:
    ```bash
-   jupyter notebook CorruptedVisualizeData.ipynb
-   jupyter notebook CheckCleanData.ipynb
-   jupyter notebook SplitVisualizeData.ipynb
+   jupyter notebook corruptedVisualizeData.ipynb
+   jupyter notebook checkCleanData.ipynb
+   jupyter notebook splitVisualizeData.ipynb
    ```
 
 3. Tarkista tulokset:
-   - Visualisoinnit: `../Visualization/`
-   - Prosessoidut datat: `../Data/`
-   - Mallit: `../Models/`
+   - Visualisoinnit: `../visualization/`
+   - Prosessoidut datat: `../data/`
+   - Mallit: `../models/`

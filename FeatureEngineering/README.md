@@ -1,4 +1,4 @@
-# FeatureEngineering
+# featureEngineering
 
 Tämä hakemisto sisältää työkaluja ja skriptejä hydraulisen järjestelmän datan piirteiden analysointiin ja muokkaamiseen.
 
@@ -14,9 +14,9 @@ Tämä hakemisto sisältää työkaluja ja skriptejä hydraulisen järjestelmän
   * Heatmap numeeristen muuttujien ja tilamuuttujien välisistä korrelaatioista
   * Scatter plot pumpun ohjausarvon ja paineen suhteesta eri tiloissa
 - Tallentaa:
-  * `../Visualization/correlationMatrix.png`
-  * `../Visualization/stateCorrelations.png`
-  * `../Visualization/featureScatter.png`
+  * `../visualization/correlationMatrix.png`
+  * `../visualization/stateCorrelations.png`
+  * `../visualization/featureScatter.png`
 
 ## Käyttö
 

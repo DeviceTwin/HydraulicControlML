@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModelPredict.py - Käyttöohje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #3498db;
+            margin-top: 25px;
+        }
+        code {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            padding: 2px 4px;
+            color: #c7254e;
+        }
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 10px;
+            overflow: auto;
+        }
+        pre code {
+            border: none;
+            padding: 0;
+            background-color: transparent;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        .important {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2ecc71;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .function {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .parameter {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .return {
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+<h1>ModelPredict.py - Käyttöohje</h1>
+
+<p>Tämä dokumentti sisältää ohjeet <code>modelPredict.py</code>-skriptin käyttöön hydrauliikkajärjestelmän tilan ennustamisessa. Skripti käyttää koulutettua SVM-mallia tunnistamaan järjestelmän tilan annettujen syötteiden perusteella.</p>
+
+<h2>Yleiskatsaus</h2>
+
+<p><code>modelPredict.py</code> on Python-skripti, joka:</p>
+<ol>
+    <li>Lataa koulutetun SVM-mallin ja skaalauskomponentin</li>
+    <li>Ottaa vastaan käyttäjän syöttämät pumpControl- ja pressure-arvot</li>
+    <li>Skaalaa arvot välille [0, 1]</li>
+    <li>Ennustaa hydrauliikkajärjestelmän tilan</li>
+    <li>Näyttää tulokset käyttäjälle</li>
+</ol>
+
+<h2>Vaatimukset</h2>
+
+<p>Skriptin käyttämiseen tarvitaan:</p>
+<ul>
+    <li>Python 3.6 tai uudempi</li>
+    <li>Seuraavat Python-kirjastot:
+        <ul>
+            <li>pandas</li>
+            <li>numpy</li>
+            <li>scikit-learn</li>
+            <li>joblib</li>
+        </ul>
+    </li>
+    <li>Koulutettu SVM-malli (<code>SVM.pkl</code>) Models-kansiossa</li>
+    <li>Skaalauskomponentti (<code>hydraulicScaler.joblib</code>) Models-kansiossa</li>
+</ul>
+
+<h2>Skriptin käyttö</h2>
+
+<h3>Suorittaminen komentorivillä</h3>
+
+<p>Skriptin voi suorittaa komentorivillä seuraavasti:</p>
+
+<pre><code>python modelPredict.py</code></pre>
+
+<p>Skripti kysyy käyttäjältä kaksi syötearvoa:</p>
+<ol>
+    <li><strong>pumpControl</strong> - Pumpun ohjausarvo (sallittu alue: 18-101)</li>
+    <li><strong>pressure</strong> - Painearvo (sallittu alue: 1-432)</li>
+</ol>
+
+<p>Esimerkki käytöstä:</p>
+<pre><code>Hydrauliikkajärjestelmän tilan ennustus
+========================================
+Syötä pumpControl-arvo (18-101): 75
+Syötä pressure-arvo (1-432): 250
+
+Syötetyt arvot: pumpControl=75, pressure=250
+Skaalatut arvot: pumpControl=0.686747, pressure=0.577982
+Numeerinen ennuste: 1
+Tekstimuotoinen ennuste: normal_digging
+
+Ennustettu tila: normal_digging</code></pre>
+
+<h3>Käyttö Python-koodissa</h3>
+
+<p>Skriptiä voi käyttää myös osana muuta Python-koodia importoimalla sen funktiot:</p>
+
+<pre><code>from modelPredict import predictState
+
+# Esimerkkiarvot
+pumpControl = 75
+pressure = 250
+
+# Ennusta tila
+state = predictState(pumpControl, pressure)
+print(f"Ennustettu tila: {state}")</code></pre>
+
+<h2>Funktiot</h2>
+
+<div class="function">
+    <h3>loadModelAndScaler()</h3>
+    <p>Lataa SVM-mallin, skaalauskomponentin ja luokkien koodaajan.</p>
+    <p><strong>Palautusarvot:</strong></p>
+    <ul>
+        <li><span class="return">model</span>: Ladattu SVM-malli</li>
+        <li><span class="return">scaler</span>: Ladattu skaalauskomponentti</li>
+        <li><span class="return">labelEncoder</span>: Ladattu luokkien koodaaja</li>
+    </ul>
+</div>
+
+<div class="function">
+    <h3>predictState(pumpControl, pressure)</h3>
+    <p>Ennustaa hydrauliikkajärjestelmän tilan annettujen arvojen perusteella.</p>
+    <p><strong>Parametrit:</strong></p>
+    <ul>
+        <li><span class="parameter">pumpControl</span>: Pumpun ohjausarvo (18-101)</li>
+        <li><span class="parameter">pressure</span>: Painearvo (1-432)</li>
+    </ul>
+    <p><strong>Palautusarvo:</strong></p>
+    <ul>
+        <li><span class="return">state</span>: Ennustettu tila (normal_digging, normal_full, normal_empty, overload, hose_break)</li>
+    </ul>
+</div>
+
+<h2>Syötemuuttujat</h2>
+
+<p>Skripti käyttää kahta syötemuuttujaa:</p>
+
+<ol>
+    <li><strong>pumpControl</strong> - Pumpun ohjausarvo
+        <ul>
+            <li>Sallittu alue: 18-101</li>
+            <li>Skaalataan automaattisesti välille [0, 1]</li>
+        </ul>
+    </li>
+    <li><strong>pressure</strong> - Painearvo
+        <ul>
+            <li>Sallittu alue: 1-432</li>
+            <li>Skaalataan automaattisesti välille [0, 1]</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Mallin tuloste</h2>
+
+<p>Malli palauttaa hydrauliikkajärjestelmän tilan, joka on yksi seuraavista:</p>
+
+<ul>
+    <li><strong>normal_digging</strong> - Normaali kaivuutila</li>
+    <li><strong>normal_full</strong> - Normaali täysi tila</li>
+    <li><strong>normal_empty</strong> - Normaali tyhjä tila</li>
+    <li><strong>overload</strong> - Ylikuormitustila</li>
+    <li><strong>hose_break</strong> - Letkurikkotila</li>
+</ul>
+
+<h2>Virheenkäsittely</h2>
+
+<p>Skripti sisältää seuraavat virheenkäsittelyt:</p>
+
+<ol>
+    <li><strong>Syötteiden tarkistus</strong>: Varoittaa, jos syötetyt arvot ovat sallitun alueen ulkopuolella, mutta jatkaa silti ennustusta skaalaamalla arvot välille [0, 1].</li>
+    <li><strong>Mallin latausvirheet</strong>: Näyttää virheilmoituksen, jos mallia tai skaalauskomponenttia ei voida ladata.</li>
+    <li><strong>Syöttövirheet</strong>: Käsittelee virheet, jos käyttäjä syöttää epäkelvon arvon (esim. kirjaimia numeroiden sijaan).</li>
+</ol>
+
+<h2>Vinkkejä</h2>
+
+<ol>
+    <li><strong>Syötearvot</strong>: Varmista, että syötearvot ovat sallitulla alueella (pumpControl: 18-101, pressure: 1-432).</li>
+    <li><strong>Debug-tiedot</strong>: Skripti näyttää debug-tietoja, kuten skaalatut arvot ja numeerisen ennusteen, mikä auttaa ymmärtämään mallin toimintaa.</li>
+    <li><strong>Integrointi</strong>: Jos haluat integroida mallin muuhun järjestelmään, voit käyttää <code>predictState</code>-funktiota suoraan Python-koodissasi.</li>
+    <li><strong>Mallin päivitys</strong>: Jos malli päivitetään, varmista että uusi malli tallennetaan samalla nimellä (<code>SVM.pkl</code>) Models-kansioon.</li>
+</ol>
+
+<h2>Esimerkki tulosteesta</h2>
+
+<pre><code>Hydrauliikkajärjestelmän tilan ennustus
+========================================
+Syötä pumpControl-arvo (18-101): 90
+Syötä pressure-arvo (1-432): 400
+
+Syötetyt arvot: pumpControl=90, pressure=400
+Skaalatut arvot: pumpControl=0.867470, pressure=0.925810
+Numeerinen ennuste: 3
+Tekstimuotoinen ennuste: normal_full
+
+Ennustettu tila: normal_full</code></pre>
+
+</body>
+</html>

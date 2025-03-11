@@ -1,4 +1,4 @@
-# Models
+# models
 
 Tämä hakemisto sisältää koneoppimismalleja ja niihin liittyviä komponentteja.
 
@@ -12,8 +12,8 @@ Tämä hakemisto sisältää koneoppimismalleja ja niihin liittyviä komponentte
       - min = 0.0, max = 100.0
     * pressure: x_scaled = (x - min) / (max - min)
       - min = 0.0, max = 450.0
-  - Käytetty `Data/cleanHydraulicData.csv` datan skaalaukseen
-  - Tuottaa `Data/scaledHydraulicData.csv` tiedoston
+  - Käytetty `data/cleanHydraulicData.csv` datan skaalaukseen
+  - Tuottaa `data/scaledHydraulicData.csv` tiedoston
 
 ## Koneoppimismallit
 
@@ -42,7 +42,7 @@ Tämä hakemisto sisältää koneoppimismalleja ja niihin liittyviä komponentte
 
 Mallien vertailu osoittaa, että SVM-malli suoriutuu parhaiten hydraulisen järjestelmän tilan luokittelussa. Ominaisuuksien tärkeydessä pressure (0.56) oli hieman tärkeämpi kuin pumpControl (0.44).
 
-Visualisoinnit mallien suorituskyvystä löytyvät `Visualization`-hakemistosta:
+Visualisoinnit mallien suorituskyvystä löytyvät `visualization`-hakemistosta:
 - `learningCurves.png`: Mallien oppimiskäyrät
 - `hyperparameterEffects.png`: Hyperparametrien vaikutukset mallien suorituskykyyn
 - `model_comparisons.png`: Mallien sekaannusmatriisit ja tarkkuusvertailu

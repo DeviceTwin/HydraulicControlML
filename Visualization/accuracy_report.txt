@@ -1,0 +1,86 @@
+HYDRAULIIKKAJƒRJESTELMƒN MALLIN TARKKUUSRAPORTTI
+==================================================
+
+P‰iv‰m‰‰r‰: 2025-03-11 16:40:55
+
+K‰ytetty malli: SVM.pkl
+K‰ytetty skaaleri: hydraulicScaler.joblib
+
+YHTEENVETO
+------------------------------
+N‰ytteiden m‰‰r‰: 10000
+Mallin tarkkuus: 0.9902 (99.02%)
+Virheellisi‰ luokitteluja: 98 / 10000 (0.98%)
+
+LUOKKIEN JAKAUMAT
+------------------------------
+Todelliset luokat:
+  normal_digging: 3685 (36.85%)
+  overload: 3000 (30.00%)
+  normal_full: 1205 (12.05%)
+  normal_empty: 1110 (11.10%)
+  hose_break: 1000 (10.00%)
+
+Ennustetut luokat:
+  normal_digging: 3705 (37.05%)
+
+  overload: 2989 (29.89%)
+
+  normal_full: 1209 (12.09%)
+
+  normal_empty: 1115 (11.15%)
+
+  hose_break: 982 (9.82%)
+
+LUOKITTELURAPORTTI
+------------------------------
+                precision    recall  f1-score   support
+
+    hose_break       1.00      0.98      0.99      1000
+normal_digging       0.99      0.99      0.99      3685
+  normal_empty       1.00      1.00      1.00      1110
+   normal_full       0.96      0.96      0.96      1205
+      overload       1.00      1.00      1.00      3000
+
+      accuracy                           0.99     10000
+     macro avg       0.99      0.99      0.99     10000
+  weighted avg       0.99      0.99      0.99     10000
+
+
+SEKAANNUSMATRIISI
+------------------------------
+Todellinen luokka (rivit) vs. Ennustettu luokka (sarakkeet):
+
+                hose_break  normal_digging  normal_empty  normal_full  overload
+hose_break             982               1             5           12         0
+normal_digging           0            3660             0           25         0
+normal_empty             0               0          1110            0         0
+normal_full              0              44             0         1161         0
+overload                 0               0             0           11      2989
+
+VIRHEANALYYSI
+------------------------------
+Virheet luokittain:
+  normal_digging luokiteltu v‰‰rin:
+    normal_full: 25 kpl
+  normal_full luokiteltu v‰‰rin:
+    normal_digging: 44 kpl
+  overload luokiteltu v‰‰rin:
+    normal_full: 11 kpl
+  hose_break luokiteltu v‰‰rin:
+    normal_digging: 1 kpl
+    normal_full: 12 kpl
+    normal_empty: 5 kpl
+
+Esimerkkej‰ virheellisist‰ luokitteluista:
+      pumpControl  pumpControlScaled  pressure  pressureScaled          actual       predicted
+239            76           0.698795       188        0.433875  normal_digging     normal_full
+394            74           0.674699       186        0.429234     normal_full  normal_digging
+582            72           0.650602       197        0.454756  normal_digging     normal_full
+798            71           0.638554       194        0.447796  normal_digging     normal_full
+807            69           0.614458       202        0.466357  normal_digging     normal_full
+1244           75           0.686747       184        0.424594     normal_full  normal_digging
+1254           71           0.638554       189        0.436195     normal_full  normal_digging
+1258           75           0.686747       182        0.419954     normal_full  normal_digging
+1270           73           0.662651       189        0.436195     normal_full  normal_digging
+1274           72           0.650602       195        0.450116  normal_digging     normal_full
