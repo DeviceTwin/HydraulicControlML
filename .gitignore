@@ -3,6 +3,7 @@
 
 # Python-tiedostot ja väliaikaiset tiedostot
 *.py
+!modelPredict.py
 *.pyc
 __pycache__/
 *.pyo
